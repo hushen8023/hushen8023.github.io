@@ -42,7 +42,7 @@
 <meta property="og:image" content="http://hushen8023.github.io/articleImg/19.png">
 <meta property="og:image" content="http://hushen8023.github.io/articleImg/20.png">
 <meta property="og:image" content="http://hushen8023.github.io/articleImg/21.png">
-<meta property="og:updated_time" content="2017-07-13T09:23:14.533Z">
+<meta property="og:updated_time" content="2017-07-13T09:33:38.028Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="hexo+github搭建个人博客">
 <meta name="twitter:description" content="之前一直有了解hexo，也想静下心来写点东西，可苦于没有时间。难得闲下来，于是乎花点时间利用hexo、gitbub、node.js以及git客户端搭建一个个人博客。">
@@ -340,10 +340,10 @@
       
           
         <p><contents><br>利用hexo、gitbub、node.js以及git客户端搭建个人博客，在此总结记录一下，方便以后用到。</contents></p>
-<h1 id="一、环境部署"><a href="#一、环境部署" class="headerlink" title="一、环境部署:"></a>一、环境部署:</h1><h2 id="安装node-js"><a href="#安装node-js" class="headerlink" title="安装node.js"></a>安装node.js</h2><p> 下载地址：<a href="https://nodejs.org/en/" title="下载地址" target="_blank" rel="external">https://nodejs.org/en/</a></p>
+<h1 id="环境部署"><a href="#环境部署" class="headerlink" title="环境部署:"></a>环境部署:</h1><h2 id="安装node-js"><a href="#安装node-js" class="headerlink" title="安装node.js"></a>安装node.js</h2><p> 下载地址：<a href="https://nodejs.org/en/" title="下载地址" target="_blank" rel="external">https://nodejs.org/en/</a></p>
 <h2 id="安装git客户端"><a href="#安装git客户端" class="headerlink" title="安装git客户端"></a>安装git客户端</h2><p>下载地址：<a href="https://git-scm.com/download" title="下载地址" target="_blank" rel="external">https://git-scm.com/download</a></p>
 <pre><code>安装方式都是默认，建议安装的目录都是采用英文的全路径。
-</code></pre><h1 id="二、安装hexo"><a href="#二、安装hexo" class="headerlink" title="二、安装hexo"></a>二、安装hexo</h1><ol>
+</code></pre><h1 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h1><ol>
 <li><p>在任意位置右击鼠标选择Git Bash Here进入命令行，输入hexo的安装命令：<code>npm install -g hexo</code></p>
 </li>
 <li><p>在D:\tools下新建hexo文件夹，进入hexo文件夹，右击鼠标选择Git Bash Here进入命令行，输入hexo初始化命令：<code>hexo init</code>；安装依赖包：<code>npm install</code>；（会在当前hexo文件夹内生成很多hexo的配置文件和配置文件夹）<br><img src="http://hushen8023.github.io/articleImg/1.png" alt=""></p>
@@ -378,9 +378,9 @@
 <blockquote>
 <p>访问连接，比如我的hushen8023.github.io<br> <img src="http://hushen8023.github.io/articleImg/14.png" alt=""></p>
 </blockquote>
-<h1 id="三、发表文章"><a href="#三、发表文章" class="headerlink" title="三、发表文章:"></a>三、发表文章:</h1><ol>
+<h1 id="发表文章"><a href="#发表文章" class="headerlink" title="发表文章:"></a>发表文章:</h1><ol>
 <li>在Git Bash下输入命令：<code>hexo new “my new post”</code>(会在hexo文件夹下比如我：D:\tools\hexo\source_posts文件夹下生成一个my-new-post.md文件）；</li>
-<li>编辑这个新生成的文件，推荐使用Markdownpad工具编辑；</li>
+<li>编辑这个新生成的文件，推荐使用<a href="http://markdownpad.com/" target="_blank" rel="external">Markdownpad</a>工具编辑；</li>
 <li>写完文章后，你可以使用<blockquote>
 <p>$ <code>hexo g</code>生成静态文件。</p>
 </blockquote>
@@ -390,17 +390,17 @@
 <p>$ <code>hexo s</code>在本地预览效果。</p>
 <p>$ <code>hexo d</code>同步到github</p>
 </blockquote>
-<h1 id="四、遇见的问题："><a href="#四、遇见的问题：" class="headerlink" title="四、遇见的问题："></a>四、遇见的问题：</h1><ol>
+<h1 id="遇见的问题："><a href="#遇见的问题：" class="headerlink" title="遇见的问题："></a>遇见的问题：</h1><ol>
 <li>安装完node.js和git之后，根据教程安装hexo完，输入<a href="http://localhost:4000一直在加载，就是出不来hexo的页面，在网上查阅了很多资料，现实4000的端口可能被占用，可以修改端口：`hexo" target="_blank" rel="external">http://localhost:4000一直在加载，就是出不来hexo的页面，在网上查阅了很多资料，现实4000的端口可能被占用，可以修改端口：`hexo</a> server -p 8888`<br><img src="http://hushen8023.github.io/articleImg/15.png" alt=""><br>然后就成功了。<br><img src="http://hushen8023.github.io/articleImg/16.png" alt=""></li>
-<li>按照网上的教程把本地hexo部署到github上去访问是出现问题，一直404；如下图<br><img src="http://hushen8023.github.io/articleImg/17.png" alt=""></li>
+<li>把本地hexo部署到github上去访问时出现问题，一直404；如下图<br><img src="http://hushen8023.github.io/articleImg/17.png" alt=""></li>
 </ol>
-<p><em>注意点：</em></p>
+<p><em>解决方案：</em></p>
 <blockquote>
 <p>在github上新建Repositories的时候，Repository name的值必须是github的账号名.github.io的格式，比如我：hushen8023.github.io<br><img src="http://hushen8023.github.io/articleImg/18.png" alt=""></p>
 <p>拷贝完密钥到github之后，需要在邮件中确认重新登陆的。<br> <img src="http://hushen8023.github.io/articleImg/19.png" alt=""></p>
 <p>检查在github中生成的hexo的目录结构是否完整<br> <img src="http://hushen8023.github.io/articleImg/20.png" alt=""><br>如果还未解决，等上10分钟左右，一般需要解析下。访问：<a href="http://hushen8023.github.io/">http://hushen8023.github.io/</a>即可<br> <img src="http://hushen8023.github.io/articleImg/21.png" alt=""></p>
 </blockquote>
-<h1 id="五、hexo指令总结"><a href="#五、hexo指令总结" class="headerlink" title="五、hexo指令总结"></a>五、hexo指令总结</h1><ol>
+<h1 id="hexo指令总结"><a href="#hexo指令总结" class="headerlink" title="hexo指令总结"></a>hexo指令总结</h1><ol>
 <li><code>hexo c</code> #hexo clean 清除缓存</li>
 <li><code>hexo s</code> #启动本地服务</li>
 <li><code>hexo g</code> #生成静态文件</li>
@@ -419,7 +419,7 @@
         <p><span>本文标题:</span><a href="/2017/07/13/hexo+github搭建个人博客/">hexo+github搭建个人博客</a></p>
         <p><span>文章作者:</span><a href="/" title="回到主页">Sonny</a></p>
         <p><span>发布时间:</span>2017-07-13, 15:49:00</p>
-        <p><span>最后更新:</span>2017-07-13, 17:23:14</p>
+        <p><span>最后更新:</span>2017-07-13, 17:33:38</p>
         <p>
             <span>原始链接:</span><a class="post-url" href="/2017/07/13/hexo+github搭建个人博客/" title="hexo+github搭建个人博客">http://hushen8023.github.io/2017/07/13/hexo+github搭建个人博客/</a>
             <span class="copy-path" data-clipboard-text="原文: http://hushen8023.github.io/2017/07/13/hexo+github搭建个人博客/　　作者: Sonny" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
@@ -438,7 +438,7 @@
     <div id="toc" class="toc-article">
         <strong class="toc-title">文章目录</strong>
         
-            <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#一、环境部署"><span class="toc-number">1.</span> <span class="toc-text">一、环境部署:</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#安装node-js"><span class="toc-number">1.1.</span> <span class="toc-text">安装node.js</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#安装git客户端"><span class="toc-number">1.2.</span> <span class="toc-text">安装git客户端</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#二、安装hexo"><span class="toc-number">2.</span> <span class="toc-text">二、安装hexo</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#三、发表文章"><span class="toc-number">3.</span> <span class="toc-text">三、发表文章:</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#四、遇见的问题："><span class="toc-number">4.</span> <span class="toc-text">四、遇见的问题：</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#五、hexo指令总结"><span class="toc-number">5.</span> <span class="toc-text">五、hexo指令总结</span></a></li></ol>
+            <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#环境部署"><span class="toc-number">1.</span> <span class="toc-text">环境部署:</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#安装node-js"><span class="toc-number">1.1.</span> <span class="toc-text">安装node.js</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#安装git客户端"><span class="toc-number">1.2.</span> <span class="toc-text">安装git客户端</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#安装hexo"><span class="toc-number">2.</span> <span class="toc-text">安装hexo</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#发表文章"><span class="toc-number">3.</span> <span class="toc-text">发表文章:</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#遇见的问题："><span class="toc-number">4.</span> <span class="toc-text">遇见的问题：</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#hexo指令总结"><span class="toc-number">5.</span> <span class="toc-text">hexo指令总结</span></a></li></ol>
         
     </div>
     <style>

@@ -5,7 +5,7 @@
     <url>%2F2017%2F07%2F18%2Fhexo%E5%A2%9E%E5%8A%A0%E6%90%9C%E7%B4%A2%E6%8F%92%E4%BB%B6%2F</url>
     <content type="text"><![CDATA[不同的主题对应的搜索插件配置不太一样，因为不同的主题js方法不太一样，小编在此总结的是yelee主题下支持的插件配置方法。 在hexo的根目录下安装两个插件：npm install hexo-generator-search --save npm install hexo-generator-searchdb –save 会在D:\tools\hexo\node_modules目录下生成两个文件夹hexo-generator-search和hexo-generator-searchdb. 在当前主题下D:\tools\hexo\themes\yelee_config.xml里 本地测试结果： 除了搜素插件之外，hexo还支持很多其他的插件配置，比如：评论、分享等等。详细请参照http://moxfive.coding.me/yelee/1.Getting-Started/installation.html]]></content>
       <categories>
-        <category>hexo教程</category>
+        <category>Hexo教程</category>
       </categories>
       <tags>
         <tag>hexo</tag>

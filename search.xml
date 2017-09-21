@@ -1,96 +1,626 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title><![CDATA[Linux干货系列：（一）、Linux介绍篇]]></title>
-    <url>%2F2017%2F08%2F17%2FLinux%E4%BB%8B%E7%BB%8D%E7%AF%87%2F</url>
-    <content type="text"><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;操作系统对于很多的非计算机专业的朋友们来说是很陌生的，在生活中常常接触到的所谓的系统也大多指的都是微软的windows，当然除了windows操作系统之外还有一款对于开发者来讲非常重要的操作系统，那就是Linux。为什么呢？因为你会发现基本上没有什么项目会部署在windows操作系统上的，生产服务器也基本上都是用的Linux。在这里我也就不再啰嗦的列举windows和linux的区别了（无非就是费用啊、开源啊、安全啊等等），总之社会很流行用，咱就去学就好了，肯定会有市场了。在这里我也就不再详细的讲解操作系统是什么了，和硬件、软件等之间的关系了等等，大伙自行百度去，嘿嘿，直奔主题———如何学习Linux？下图是一个学习架构图，取材于实验楼，归纳的特别好。 &nbsp;&nbsp;&nbsp;&nbsp;作为java开发人员，个人觉得Linux水平达到中级就差不多够用了，如果是linux方向的开发人员当然基本上都得熟咯。如果是运维人员，则Linux高级中的Linux服务器领域也必须熟，否则就不是一名合格的运维人员。当然如果您对Linux特别感兴趣的话，也可以深入的学习。]]></content>
-      <categories>
-        <category>Linux干货系列</category>
-      </categories>
-      <tags>
-        <tag>Linux</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[2017年下半年学习计划]]></title>
-    <url>%2F2017%2F07%2F26%2F2017%E5%B9%B4%E4%B8%8B%E5%8D%8A%E5%B9%B4%E8%AE%A1%E5%88%92%2F</url>
-    <content type="text"><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;17年上半年是折腾的半年，不过万事开头难，初来上海必须经历这么一遭的，我亦深知：苦难,是上帝送给我们带着包装的礼物,所有的磨难,都让人成长。如若一路顺风，岂非达不到闯一闯的目的呢。 &nbsp;&nbsp;&nbsp;&nbsp;现在这家公司的性质有点类似于国企，所有的项目并不是完全由我们这些开发人员去做，都是进行招标由厂商来做，我们负责梳理需求和辅助开发，等到厂商退场之后完全的接手整个项目。目前公司准备在集团层面做一个金融平台把所有子公司系统公用的功能提取出来，比如：风控、账户（会员）、支付（渠道）、入口、运营等，现阶段还在招标过程中。那么趁着这段时间整理下思路，捋清楚自己的职业规划，抓紧时间站稳脚步，为下一次的起跳蓄力。 序号 时间段 项目 备注 1 07：00~07：50 起床 - 2 07：50~08：30 早饭和上班路上 - 3 08：30~17：30 上班 - 4 17：30~18：00 晚饭 - 5 18：00~21：00 加班学习 学习方向：技术(java、大数据等)、语言（英语、日语） 6 21：00~21：30 跑步回家 - 7 21：30~22：00 洗衣服 - 8 22：00~22：30 洗澡 - 9 22：30~23：00 睡前读书 非技术和语言类 在不影响生活和工作的前提下，2017年下半年学习计划： javaSE和javaEE部分的总结全部以博客的形式完成。 大数据方向的知识同样以博客的形式完成学习。 Linux操作系统的基本操作和使用，以ubuntu为准。 数据库方向以mysql和oracle为准。 缓存数据库方向以redis和mongodb为准。 学习梳理支付、风控、账户等金融领域的业务知识，以博客的形式完成。 英语水平：词汇2000，经典文章10篇，熟练听、说、写。 日语水平达到N5标准。]]></content>
-      <categories>
-        <category>生活感悟</category>
-      </categories>
-      <tags>
-        <tag>随笔</tag>
-        <tag>学习计划</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[2017年上半年总结]]></title>
-    <url>%2F2017%2F07%2F26%2F2017%E5%B9%B4%E4%B8%8A%E5%8D%8A%E5%B9%B4%E6%80%BB%E7%BB%93%2F</url>
-    <content type="text"><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;不觉间2017年已经过去了一半，年初的时候记得是3月10号从天好离开来到上海，那时意气风发，铆足了劲儿想成就一番事业，当然也是鼓足了勇气。从15年毕业到17年，老妈一直不同意我离开苏州，哪怕是之前北京的项目要出差，她也觉得如果非要去北京的话，就向公司提出离职。当然最后她还是妥协了。老妈的一片苦心我何尝不明白，无非是担心我在偌大的帝都难以生存，担心我生活的不好，因为至少在苏州在她身边，她能给予我无微不至的照顾，可怜天下父母心。果不其然，当我告知老妈和老爸我准备辞去工作去上海的时候，老妈那强烈的反对声音差点没让我打消这个念头，值得庆辛的是老爸说了一句“是应该出去闯闯的。”后来，老妈没能经得住我和老爸的统一战线作战，再一次妥协了。 &nbsp;&nbsp;&nbsp;&nbsp;来到上海之后，感觉上海和苏州没什么区别，唯一的区别就是人要比苏州多。初来上海寄居在大学同宿舍的兄弟那，便开始投简历了。裸辞的感觉还是蛮心酸的，心里一点底都没有，不是不知道裸辞不好，实在是因为换城市，就算是在职换工作也没能抽空到上海来面试。所以开始也面试了很多外包公司，就当试试水啦，当然中间也有非外包的公司。大概不到三天，就有一家公司给我发来了offer，意思是项目比较急想让我尽快的来上班，薪水福利都按照我说的来，再一问工作的性质是项目外包而且是银行项目，由于不太了解这个项目外包的具体情况，而且告知我说是本公司的团队一起在银行做项目，之前在天好的时候出差也是属一个团队去甲方开发的，所以误认为和之前的工作性质和模式是一样的，再加上裸辞的心里压力以及薪资条件还可观，就答应了下来，后面的面试也就没再去了（主要是我同学住在佘山，每天去浦东面试地铁都要坐一个多小时，太累了）。接下来就顺顺利利的办了入职。 &nbsp;&nbsp;&nbsp;&nbsp;入职当天就被人事带到项目现场（浦发银行-莲花路上的），做的是一个基于大数据的运维管理平台项目（当初心动的原因也有一部分听说是大数据的项目），在接下来的时间里也终于搞懂了这一切都是些什么套路。公司是和浦发银行以卖人头的形式和银行签订合同，而且这个所谓的“大数据项目”并不全算是一个大数据项目，因为有大数据团队把数据处理好了丢给我们，我们再针对这些数据，按照银行客户的需求来筛选出来，以报表、table、pdf等形式展示出效果来，当然中间取那些数据是用到了ElasticSearch 检索技术和类似于easyUI的kafka报表，这也算是和大数据沾了点边。在做项目的过程中，没有项目经理，没有测试，没有UI，没有运维，从需求、前端、后端、测试、上线都是自己负责，后来才知道这个项目还没开始启动，而且我们也不是开发这个项目的主力，这个项目会进行招标由厂商来做，我们现在做的说明白一点就是小白鼠，梳理需求的过程，行方想到一点需求，就让我们开发一点，看看效果。银行老师为了在他们领导面前展示他们为这个项目的努力，除了自己每天加班到九点之外，也要求我们每天陪同他们一起加班。于是乎就开始了漫长的加班生活。自己也感觉是应该好好的努力一把了，于是乎就在漕河泾找了房子，虽然有点贵但是离上班近啊，方便加班。 &nbsp;&nbsp;&nbsp;&nbsp;连续奋战两个月了，同事们对我很认可，银行的老师也对我的能力表示认可。眼瞅着也马上要转正了，有一天银行老师突然找上我们团队，其实加上我也就三个人，大致的意思是，公司和银行签订的合同马上要到期了，好像是公司对这个项目也没能招到标，所以问问我们想不想继续跟着他干，如果想就推荐我们进别的公司，再进这个项目，后来本着对公司忠诚的态度，我们都未发表任何意见。中间另一家和我们一起开发这个项目的开发人员也私底下让我们准备简历，去他家公司，均给予不理会。到5月底的时候，依稀记得好像是周五，下午的时候接到公司电话说让我回趟公司，有些事情想和我谈谈，当时就感觉不太妙啊，因为第二天就要转正了，可怕公司因为项目的事卡我。当天下午银行老师也来找我谈了下，表示说因为公司和银行合同到期等原因，暂时让我先公司，听公司的安排。等我回到公司的时候，人事就过来和我谈，说要么更换部门（需重新面试，重新试用，工资下调），要么终止合同。我当时那个气呀，实在没想到公司居然能做出这等过河拆桥的事情，辛辛苦苦为公司在项目现场加班加点两个月，中间别家公司挖人都没理会，眼瞅第二天转正了，就因为和我半毛钱关系都没有的合同到期（其实主要原因是没中标，所以人员没法安置）就想终止合同，忽视我这两个月的劳动成果，再一回想当初新人培训时那讲师嘴里的公司和所谓的价值观，更是气不打一处来。但心里一想这个社会本来就是这个样子，虚情假意，唯利是图。于是就尽可能的和公司谈补偿。最终谈妥的方案是第二天的转正正常转，并且带薪休完之前所有的加班，而我也必须签订假期休完之后主动提出离职的协议。 &nbsp;&nbsp;&nbsp;&nbsp;在休假的期间我又开始陆续的投简历面试，之前这个大数据项目和银行开发的经历让我的资本也丰富了不少，还没怎么开始投简历，只是更新了下简历电话就开始嘟嘟嘟的响个不停，而且还是处于毕业季，不禁又让我感受到上海的强大了。有了之前的经历，我在找工作的过程中，只找甲方公司，其他的乙方啊、外包啊，不管是项目外包还是人员外包啊，都直接pass。非常顺利，也是不到三天的时间里，收到了现在这家公司的offer，当然中间还有一家公司招项目主管的，初试过了等着复试，所以当时没立即答应现在这家公司，等复试完那家公司后，让等通知说会从我们几个复试中选一个，在此之间我还是果断的选择了现在这家公司，因为这家公司是做互联网金融的，而且公司的背景很大，公司的性质和国企差不多（五险两金）。果然那家复试的公司也没了音信。 &nbsp;&nbsp;&nbsp;&nbsp;半年的时候就这么眨巴眼睛之间过去了，回过头去看不禁感慨万分。从来上海寄居在同学家（佘山），接着在浦东、徐汇等地面试，最远跑到唐镇，再到漕河泾的浦发银行上班，接着从同学家搬离住在万源新城（中间未通过中介自己找房子两个周末），又从公司离职开始面试，再到现在这家公司（陆家嘴世纪金融广场）上班，又搬家搬到临沂新村（让中介帮忙找的，自己最远找到了外高桥）。和之前的苏州生活相比虽然折腾了些，但是我觉得在这半年里我学到了很多的东西，这一趟上海是来对了。 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;年轻就要经得起折腾！]]></content>
-      <categories>
-        <category>生活感悟</category>
-      </categories>
-      <tags>
-        <tag>随笔</tag>
-        <tag>总结</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[真心，懂得，陪伴]]></title>
-    <url>%2F2017%2F07%2F24%2F%E7%9C%9F%E5%BF%83%EF%BC%8C%E6%87%82%E5%BE%97%EF%BC%8C%E9%99%AA%E4%BC%B4%2F</url>
-    <content type="text"><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;记得大学一年级的时候，第一次在室友的蛊惑下说出“我想念你”这四个字。电话那头突然安静下来，沉默，然后用我听过的最温柔的声音说“那不打牌了，我陪你吧”。这好像是我关于他的唯一最好的记忆。当你违背本性用爱情国度的语言言不由衷地交流，却发现只有这种形式大于内容的交流才能带来真诚的回应时，这真是莫大的讽刺。 &nbsp;&nbsp;&nbsp;&nbsp;所以我好久没说过这样的话了，觉得假得很。 &nbsp;&nbsp;&nbsp;&nbsp;不得不承认，我是一个非常没有情调的人，不仅我自己没有情调，而且我极端反感别人跟我玩情调。 &nbsp;&nbsp;&nbsp;&nbsp;若一个人以为一束花一盏烛光或是一件礼物就能让你欢喜雀跃，那么他太过看轻你。若一个人以为众目睽睽之下诸如“单膝跪地”式的义无反顾才能证明他的爱情，那么他太过看轻自己。若不能细水长流地书写内心的温柔，那轰轰烈烈的一幕一幕不过是日后回忆自己爱无能的证据罢了。当然也会有人悲催但真诚地对你说“为什么我做的所有我认为感动的事情，你都没有感动”，我想，这可能就是两个不同振幅的人企图改变自己灵魂的节奏来延续爱情了，其结果也只能是一败涂地。 &nbsp;&nbsp;&nbsp;&nbsp;就像最近火了的那歌唱的，其实野马就是野马，你搬去呼伦贝尔，他也永远不会向往你家里的草原。 &nbsp;&nbsp;&nbsp;&nbsp;但是，我反感情调不代表我反感浪漫。玩情调跟玩浪漫完全是走火入魔急于求成的周芷若和人淡如菊却出神入化的黄衣姐姐的区别。 &nbsp;&nbsp;&nbsp;&nbsp;什么叫浪漫 —— 一年陪你过十二个情人节的总有一天会因为你的公主病掉头离开，整天短信电话腻腻歪歪到极致的总有一天穷死在中国移动的面前，为你淋雨打架卖血自残各种犯贱的你还指望他结了婚能对你怎样，把你当成全世界的有了你家也不回了妈也不管了工作也扔下了dota也不打了，我只能说他心胸太小小到只够装得下你，你俩以后就指着一颗玻璃心过日子吧。 &nbsp;&nbsp;&nbsp;&nbsp;其实，什么叫浪漫——直言不讳地说我很喜欢你但请你不要把这当成一种姿态，这就叫浪漫。你喜欢的正确的一切他都有要了解和体验的冲动，并及时告诉你不要沉迷于此不可自拔，这就叫浪漫。对生活有自己的热情和愤怒，对未知的事物充满好奇，独立自由且重情重义，这就叫浪漫。指着自己爹妈对你说，咱以后一起孝敬他们，这就叫浪漫。 &nbsp;&nbsp;&nbsp;&nbsp;在我上幼儿园的时候，放学家里没人，院里一个叔叔就坐在楼下的草坪上讲故事给我听，一直到爸爸妈妈下班他才去食堂吃饭。这个画面我已经忘了，但是我妈还记得，她说那么粗线条那么虎背熊腰的一个大小伙子就这样陪着一个小屁孩儿，真是难得。跟大人在一起像大人，跟孩子在一起像孩子，跟狗在一起像狗的人，不难得才怪。 &nbsp;&nbsp;&nbsp;&nbsp;我妈说：看一个男生怎样，不要看他对你怎样，去看他对别人怎样。一个能对所有人都抱着一颗友善之心的人，他永远都不会舍得伤害你。故伪愤青不可碰，真情种不可碰，话多又没重点不装逼就会死的傻X也不可碰。 &nbsp;&nbsp;&nbsp;&nbsp;一个女生，十五岁的时候相信童话故事，说明你纯真；二十五岁的时候依旧分不清童话和现实，那就是你幼稚。 &nbsp;&nbsp;&nbsp;&nbsp;就像一个男生，十五岁的时候说自己为理想和爱情而生，我会觉得那是万恶的高考制度下难得一见的独创性思维；但是二十五岁的时候再整天为“爱情”撕心裂肺、为“理想”奋不顾身、虽视金钱如粪土结婚时依旧让爸妈掏钱买这买那、虽张口闭口决不妥协但遇到与自身利益相关的问题时便束手无策火大冲天，那你即使有再多的money，也不过是个潜力DS股而已。 &nbsp;&nbsp;&nbsp;&nbsp;时间从来不喧哗。若光阴飞逝，你却依旧不能沿着正确的方向沉淀自己的心，那你的灵魂将空无一物，还期待什么浪漫的共振，只能期待那些矫情无比的小情调为你从未开始过的青春留下些许苍白的证明罢了。 &nbsp;&nbsp;&nbsp;&nbsp;让自己变得强大不只是说说而已，十几岁的小萝莉们也开始宣扬要成为一个内心强大冷暖自知的女汉子了。拎个水果都嫌重的姑娘，你凭什么说自己是女汉子，在职场上呼风唤雨的姑娘，对家务事一窍不通，你凭什么说自己内心强大。真正聪明的姑娘，一定是福慧双修的，这跟你会几种乐器操几门外语拿几W月薪飞几个国家一毛钱关系都没有。你除了要有让自己的双脚坚实地站在大地上的东西，还要用最柔韧的心勇敢迎接各种挑战，琐碎至柴米油盐，精细至婆媳关系，高端至业务洽谈职场纵横等等等等。 &nbsp;&nbsp;&nbsp;&nbsp;温柔但心有所属，随和却立场坚定，不浮夸不骄躁，看上去永远是一柄柔柔弱弱的剑，斜斜刺出，才能杀人于无形。 &nbsp;&nbsp;&nbsp;&nbsp;廖一梅说，我挺着脖子支撑了那么多年，最终希冀的竟然也不过是被宠爱，被恰如其分地宠爱。 &nbsp;&nbsp;&nbsp;&nbsp;其实养过小猫小狗的人都知道，宠爱谁都会。可惜越来越多的人把宠爱放大成溺爱，然后各种负能量各种予取予求。恰如其分地宠爱一个人，同时她能感受到并感激你的这份恰如其分的清醒，这才是关键。很多事情，过了那个度，没有了“你之所以是你”的原则，便没有了“爱情之所以是爱情”的意义。 &nbsp;&nbsp;&nbsp;&nbsp;所以，若两个人从根本上是异类，那再多的浪漫在对方的眼里都是莫名其妙的动作。试问宝玉的旧帕子宝钗怎么能明白呢，杨过的苦痛郭芙怎么能了解呢，林朝英对王重阳的百般刁难丘处机怎么能想通呢，任盈盈那么喜欢令狐冲却不肯让他入教掌权她老子任我行怎么会不纳闷呢？ &nbsp;&nbsp;&nbsp;&nbsp;执子之手与子偕老，光有情有个屁用，关键是懂得。既然有生之年狭路相逢终不能幸免，那么，情之所至处我所做的一切加你所做的一切，身不由己后我没能做的一切加你没能做的一切，就是浪漫。 &nbsp;&nbsp;&nbsp;&nbsp;张爱玲不是寄了所有的积蓄给放弃她的胡兰成吗，徐志摩不是以生命为代价飞去林徽因那儿吗，许广平不是答应鲁迅为了朱安愿意不结婚只相伴到老吗，胡蝶不是在戴笠的数年软禁之下依旧忍辱负重地活着吗？ &nbsp;&nbsp;&nbsp;&nbsp;这么多年过去了，还是有很多人对他们评头论足指指点点。可是，在彼此的心里，只要你以你独有的姿态，以我爱上你的姿态，以你从未改变过的喜悦自由的生命姿态，存在在这个世界上，在我看来，这就叫浪漫。 &nbsp;&nbsp;&nbsp;&nbsp;对于那个《小时代》，我唯一认同的话就是，如果一个人说喜欢你，请等到他对你百般照顾时再相信；如果他答应带你去的地方，等他订好机票再开心；如果他说要娶你，等他买好钻戒跪在你面前再感动；感情不是说说而已，我们已经过了耳听爱情的年纪。 &nbsp;&nbsp;&nbsp;&nbsp;我们早过了学生时代诗酒年华，既不会再抱着本朦胧诗独自吟唱“我如果爱你，绝不像攀援的凌霄花借你的高枝炫耀自己”，也不希望老了的时候才发现“曾有一人爱我那朝圣者的灵魂，爱我衰老了的脸上痛苦的皱纹”，所以只有浪漫是远远不够的。但是我们还年轻，虽然经历过伤痛，却在内心深处依然保留一份倔强，以至于我们要的计划并不是钱、钻石和社会地位，而是努力、沟通和理解。 &nbsp;&nbsp;&nbsp;&nbsp;坐在你自行车后座的姑娘离开了，并不一定是为了坐在宝马里笑，她完全可以骑着另一辆自行车，和你一起创造你们的浪漫，只要你给她一份建立在奋斗、沟通和理解之上的计划愿景。 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;愿有情人相知在心，不负斯土。]]></content>
-      <categories>
-        <category>生活感悟</category>
-      </categories>
-      <tags>
-        <tag>情感随笔</tag>
-        <tag>转载</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[hexo搜索插件]]></title>
-    <url>%2F2017%2F07%2F18%2Fhexo%E5%A2%9E%E5%8A%A0%E6%90%9C%E7%B4%A2%E6%8F%92%E4%BB%B6%2F</url>
-    <content type="text"><![CDATA[不同的主题对应的搜索插件配置不太一样，因为不同的主题js方法不太一样，小编在此总结的是yelee主题下支持的插件配置方法。 在hexo的根目录下安装两个插件：npm install hexo-generator-search --save npm install hexo-generator-searchdb –save 会在D:\tools\hexo\node_modules目录下生成两个文件夹hexo-generator-search和hexo-generator-searchdb. 在当前主题下D:\tools\hexo\themes\yelee_config.xml里 本地测试结果： 除了搜素插件之外，hexo还支持很多其他的插件配置，比如：评论、分享等等。详细请参照http://moxfive.coding.me/yelee/1.Getting-Started/installation.html]]></content>
-      <categories>
-        <category>Hexo教程</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[hexo更换主题+发表文章格式]]></title>
-    <url>%2F2017%2F07%2F17%2Fhexo%E6%9B%B4%E6%8D%A2%E4%B8%BB%E9%A2%98%2B%E5%8F%91%E8%A1%A8%E6%96%87%E7%AB%A0%E6%A0%BC%E5%BC%8F%2F</url>
-    <content type="text"><![CDATA[人靠衣装马靠鞍，hexo一样。hexo官网除了提供各种版本的维护之外，同时向用户提供了大量不同风格的主题，以jacman为例总结更换主题的操作。 下载主题直接Git Bash命令行中输入命令：$ git clone https://github.com/wuchong/jacman.git themes/jacman（会再D:\tools\hexo\themes文件夹下生成一个jacman的文件夹） 修改配置文件修改根目录下的_config.xml修改hexo文件夹下_config.yml（根目录下的），内容如下（有注释，用Sublime Text(使用它的原因是默认是UTF-8编码，中文不会乱码)打开_config.yml文件，否则会乱码的）注：在每个参数的”：”后都要加一个空格修改网站相关信息; # Hexo Configuration ## Docs: https://hexo.io/docs/configuration.html ## Source: https://github.com/hexojs/hexo/ # Site 网站 title: 小福星独立博客 #网站标题 subtitle: 既无三徙教，不闻过庭语 #网站副标题 description: hello,every body!~ #网站描述 author: sonny #您的名字 language: zh-CN #网站使用的语言 timezone: #网站时区。Hexo 默认使用您电脑的时区 # URL 网址 ## 如果您的网站存放在子目录中，例如 http://yoursite.com/blog，则请将您的 url 设为 http://yoursite.com/blog 并把 root 设为 /blog/。 url: http://hushen8023.github.io root: / permalink: :year/:month/:day/:title/ permalink_defaults: # Directory 目录配置 source_dir: source #源文件夹，这个文件夹用来存放内容。 public_dir: public #公共文件夹，这个文件夹用于存放生成的站点文件。 tag_dir: tags#标签文件夹 archive_dir: archives #归档文件夹 category_dir: categories #分类文件夹 code_dir: downloads/code #nclude code 文件夹 i18n_dir: :lang#国际化（i18n）文件夹 skip_render: #跳过指定文件的渲染，您可使用 glob 表达式来匹配路径。 # Writing 文章 new_post_name: :title.md # 新建文章默认文件名 default_layout: post # 默认布局 titlecase: false # Transform title into titlecase external_link: true # 在新标签中打开一个外部链接，默认为true filename_case: 0#转换文件名，1代表小写；2代表大写；默认为0，意思就是创建文章的时候，是否自动帮你转换文件名，默认就行，意义不大。 render_drafts: false #是否渲染_drafts目录下的文章，默认为false post_asset_folder: false #启动 Asset 文件夹 relative_link: false #把链接改为与根目录的相对位址，默认false future: true#显示未来的文章，默认false highlight: #代码块的设置 enable: true line_number: true auto_detect: false tab_replace: # Category &amp; Tag 分类和标签的设置 default_category: uncategorized #默认分类 category_map: #分类别名 tag_map:#标签别名 # Date / Time format ## Hexo uses Moment.js to parse and display date ## You can customize the date format as defined in ## http://momentjs.com/docs/#/displaying/format/ date_format: YYYY-MM-DD time_format: HH:mm:ss # Pagination 分页 ## Set per_page to 0 to disable pagination per_page: 10 #每页显示的文章量 (0 = 关闭分页功能) pagination_dir: page #分页目录 # Extensions ## Plugins: https://hexo.io/plugins/ ## Themes: https://hexo.io/themes/ theme: jacman # Deployment ## Docs: https://hexo.io/docs/deployment.html deploy: type: git repository: https://github.com/hushen8023/hushen8023.github.com.git branch: master 修改主题目录下的_config.xml修改新的主题jacman下的_config.yml(对应主题下的_config.xml) ##### 菜单 menu: 主页 | Home: / 归档 | Archives: /archives 简介 | About: /about ## you can create `tags` and `categories` folders in `../source`. ## And create a `index.md` file in each of them. ## set `front-matter`as ## layout: tags (or categories) ## title: tags (or categories) ## --- #### 右边显示部分，按着排序进行排序，我用到了分类，标签，友情链接，微博，rss widgets: - category - tag - links - weibo - rss #返回顶部按钮，totop。在博客右下脚显示一件返回顶部按钮 totop: true ## if you want to scroll to top in every post set the value to true #### RSS 地址 rss: /atom.xml ## RSS address. #### Image 图片。包括各种图片，可以在jacman主题下source下img文件下找到各种图片，想要换成你的直接换就ok，当然名字扩展名最好用一样的 imglogo: enable: true ## display image logo true/false. src: img/logo.png## `.svg` and `.png` are recommended,please put image into the theme folder `/jacman/source/img`. favicon: img/favicon.ico ## size:32px*32px,`.ico` is recommended,please put image into the theme folder `/jacman/source/img`. apple_icon: img/jacman.jpg ## size:114px*114px,please put image into the theme folder `/jacman/source/img`. author_img: img/author.jpg ## size:220px*220px.display author avatar picture.if don&apos;t want to display,please don&apos;t set this. banner_img: #img/banner.jpg ## size:1920px*200px+. Banner Picture ### Theme Color theme_color: theme: &apos;#2ca6cb&apos;##the defaut theme color is blue # 代码高亮主题 # available: default | night highlight_theme: default ####首页文章是否展开。默认为展开式，显示 Read More。 index: expand: true ## default is unexpanding,so you can only see the short description of each post. excerpt_link: Read More ###是否在文章页面自动关闭侧边栏 close_aside: false #close sidebar in post page if true mathjax: false #enable mathjax if true ### Creative Commons License Support, see http://creativecommons.org/ ### you can choose: by , by-nc , by-nc-nd , by-nc-sa , by-nd , by-sa , zero creative_commons: none #### 作者信息，显示在网站底部。主要包括，文字介绍，以及图片。还有各种你的链接包括微博等等。换成你id就行； author: intro_line1: &quot;Hello ,I&apos;m onePeace Page in csdn.&quot;## your introduction on the bottom of the page intro_line2: &quot; Stay hungary,stay foolish.&quot; ## the 2nd line weibo: 2026326475 ## e.g. wuchong1014 or 2176287895 for http://weibo.com/2176287895 weibo_verifier: 039d33aa ## e.g. b3593ceb Your weibo-show widget verifier ,if you use weibo-show it is needed. tsina: 2026326475 ## e.g. 2176287895 Your weibo ID,It will be used in share button. douban: ## e.g. wuchong1014 or your id for https://www.douban.com/people/wuchong1014 zhihu: wang-he-ping-78 ## e.g. jark for http://www.zhihu.com/people/jark email: w_peace12@163.com ## e.g. imjark@gmail.com twitter: wpeace1212 ## e.g. jarkwu for https://twitter.com/jarkwu github: wpeace1212## e.g. wuchong for https://github.com/wuchong facebook: 100006871362068 ## e.g. imjark for https://facebook.com/100006871362068 linkedin: wpeace1212 ## e.g. wuchong1014 for https://www.linkedin.com/in/wuchong1014 google_plus: wpeace1212 ## e.g. &quot;111190881341800841449&quot; for https://plus.google.com/u/0/111190881341800841449, the &quot;&quot; is needed! stackoverflow: ## e.g. 3222790 for http://stackoverflow.com/users/3222790/jark ## if you set them, the corresponding share button will show on the footer #### 目录，是否在文章中显示目录。显示在侧边栏； toc: article: true ## show contents in article. aside: true ## show contents in aside. ## you can set both of the value to true of neither of them. ## if you don&apos;t want display contents in a specified post,you can modify `front-matter` and add `toc: false`. #### 友情链接 links: 开发者头条: http://toutiao.io/ peace in csdn: http://blog.csdn.net/peace1213 博客园： http://www.cnblogs.com/onepeace/ #### 评论 国内用多说很好。注册账号，写在这里就ok duoshuo_shortname: rlovep ## e.g. wuchong your duoshuo short name. disqus_shortname: ## e.g. wuchong your disqus short name. #### 主题自带分享，这里用了false jiathis: enable: false ## if you use jiathis as your share tool,the built-in share tool won&apos;t be display. id:## e.g. 1889330 your jiathis ID. tsina: ## e.g. 2176287895 Your weibo id,It will be used in share button. ####网站统计，我用的时cnzz统计 google_analytics: enable: false id:## google analytics ID. site: ## 网站地址. ## You MUST upgrade to Universal Analytics first! ## https://developers.google.com/analytics/devguides/collection/upgrade/?hl=zh_CN baidu_tongji: enable: false sitecode: 140e36c412afe791813036c83f602b ## e.g. e6d1f421bbc9962127a50488f9ed37d1 your baidu tongji site code cnzz_tongji: enable: true siteid: 1255712369 ## e.g. 1253575964 your cnzz tongji site id #### Miscellaneous ShowCustomFont: true ## you can change custom font in `variable.styl` and `font.styl` which in the theme folder `/jacman/source/css`. fancybox: true## if you use gallery post or want use fancybox please set the value to true. #### 自定义搜索，我用的时百度搜索 google_cse: enable: false cx: ## e.g. 018294693190868310296:abnhpuysycw your Custom Search ID. ## https://www.google.com/cse/ ## To enable the custom search You must create a &quot;search&quot; folder in &apos;/source&apos; and a &quot;index.md&quot; file ## set the &apos;front-matter&apos; as ## layout: search ## title: search ## --- baidu_search: ## http://zn.baidu.com/ enable: true id: 16217304412639601221 ## e.g. &quot;783281470518440642&quot; for your baidu search id site: http://zhannei.baidu.com/cse/search ## your can change to your site instead of the default site tinysou_search: ## http://tinysou.com/ enable: false id: ## e.g. &quot;4ac092ad8d749fdc6293&quot; for your tiny search id 文章格式title: #标题 date: 2017-07-17 10:20:18 #文章生成時間 categories: &quot;&quot; #文章分類目錄 可以省略 tags: [,] #标签，多个标签以数组形式 description: &quot;&quot; #文章描述，用于列表展示 --- &lt;Contents&gt; #开始正文... 参考文档https://hexo.io/themes/ http://blog.csdn.net/peace1213/article/details/47010381]]></content>
-      <categories>
-        <category>Hexo教程</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-        <tag>个人博客</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[对不起，我爱你]]></title>
-    <url>%2F2017%2F07%2F15%2F%E5%AF%B9%E4%B8%8D%E8%B5%B7%EF%BC%8C%E6%88%91%E7%88%B1%E4%BD%A0%2F</url>
-    <content type="text"><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;思来想去，或许我只适合用文字的形式来和你说一些东西，讲一些心里话，这样你才能静下心来聆听，我们也不需要你一言我一句的，声音越来越大，火气越来越大，说的话也越来越难听了。 &nbsp;&nbsp;&nbsp;&nbsp;在此时此刻你或许对我不满，对目前的现状感到失望，对当初的选择感到后悔，但是我却不然，至少我没有对你不满，对目前不失望，对当初的选择也不后悔，如果我也不满，也失望，也后悔，我想我们真的是走不下去了。在这段感情中我一直都是很乐观的，当然我的人生态度也一直都是很乐观的。从你我相识到今天有五个月零两天了，很感激你的喜欢，你的认可，你的奋不顾身，抛弃深圳的生活、事业和朋友毅然决然的来上海，可是呢，在这个陌生的城市，你并没有的因为爱情和我而过的比之前好，甚至更糟糕，每天上班幸苦，挤地铁幸苦，回家了那么小的房子，还要烧饭，还有着这么位幼稚不成熟的我时不时的惹你不开心，婊子嘴，整天嘟嘟嘟。在这里我向你真诚的道歉，我对不起你，我没有好好的照顾你，没能尽到一位男朋友、未婚夫的职责，没能照顾你的小情绪，没能给予你舒适的生活。请相信我，我并非扶不起的刘阿斗，面包会有的，牛奶也会有的，一切都会好的。 &nbsp;&nbsp;&nbsp;&nbsp;两个人在相处的过程中，不管之前的印象有多好，真正的相处久了彼此身上的小问题都会显露出来，比如我：好争辩，一堆歪理、婊子嘴，总是爱叨叨叨、懒惰，这些之前的时候我都不怎么发现，目前来看我真的存在这些坏坯子，我也承认，我愿意改变，不仅仅是为了你，更多的是为了我自己，我也无时无刻都在想变的更好。可是呢，有的时候出现问题了你也只会埋怨我的不是，吵架了你只会记起之前我对你的各种不好，而忽视我爱你的时候，忽视我真情的时候，你只会一味的在按照你自己的性子，批判我，审视我，然后看着别人的爱情，指着我说，看别人的老公怎样怎样，再看看你，正如你说的一样，细节细节，我的细节是把你气跑，把你往外推，可真的全都是这样子吗？你生气的时候也仅仅记得那天晚上我嫌弃你热不去抱你，可曾去了解过那天晚上我浑身是汗，难道不能等到我凉会儿后再去抱你吗；仅仅记得昨天你腰疼，我回家没有问你一句，没有关心过你一句，可曾记得我在地铁站见到你的第一句话就是问你腰还疼吗；仅仅记得我在全神贯注发布房子信息的时候，你和我说话，我没搭理你然后对你吼，可曾知道因为你说我说的难听，好像我在玩别的不搭理你一样，我也曾解释我全神贯注的时候容易听不到别人说什么等等，其实两个人在相处的时候难免会有意见不合的时候，会有争吵的时候，就比如上次你姐和你姐夫的事，我们为此还争吵过，也难免会有工作，家庭其他事情的不如意心里不舒服的时候，在说话的时候情绪化，比如我上份工作，我苏州社保，你的考试，你生理期等。这些时候就需要我们彼此去包容，去理解，去沟通，照顾好彼此的小情绪。当然自己也不能太过了，尽可能的不去伤害到对方。 &nbsp;&nbsp;&nbsp;&nbsp;爱是相互的，你向往爱情，我又何尝不向往呢。书本和影视剧里的爱情总是那么的美好，可现实中的爱情呢，毕竟是要过日子的嘛。在这段日子里，我感觉到我进步了很多，这些都是你的功劳，说句心里话，我还是蛮怕你的，愿意去听你的意见。因为你毕竟学历比我高，见识比我广，懂得的人情世故比我多。在你的陪伴下，我也越来越上进，压力也越来越大，不想让你跟我在一起受委屈，所以我想最近换房子，哪怕贵一点也无所谓，实在是不想让你你挤地铁，住又小又臭的房子了。我也想考研究生，或许难度很大，但是我不想一直拖你后腿，说出去你老公是个三本。我也想变的更好，越来越贴近书本里、影视剧里的男主角，阳光、大度、贴心、温柔，有本事，让你拥有完美爱情。 &nbsp;&nbsp;&nbsp;&nbsp;从一出生父母就开始为我们操心，操不完的心。叔叔阿姨担心我对你不好，担心你受委屈，我爸妈也担心我们闹矛盾，吵架。在他们的心中，一直以来只希望我们好好的，过的越好他们越开心，不求我们有多么大的本事，也不求我们能怎样怎样的孝顺他们，也仅仅希望我们过的幸福。我是个孝顺的人，以前是，现在是，将来也是，当然你也是的，我们不能让他们失望，我们应该感激他们，爱他们。 &nbsp;&nbsp;&nbsp;&nbsp;坐在自行车后座的你离开了，并不一定是为了坐在宝马里笑，我想你完全可以骑着另一辆自行车，和我一起创造我们的浪漫，只要我们拥有一份建立在奋斗、沟通和理解之上的计划愿景。]]></content>
-      <categories>
-        <category>生活感悟</category>
-      </categories>
-      <tags>
-        <tag>情感随笔</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[hexo+github搭建个人博客]]></title>
-    <url>%2F2017%2F07%2F13%2Fhexo%2Bgithub%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%2F</url>
-    <content type="text"><![CDATA[利用hexo、gitbub、node.js以及git客户端搭建个人博客，在此总结记录一下，方便以后用到。 环境部署:安装node.js 下载地址：https://nodejs.org/en/ 安装git客户端下载地址：https://git-scm.com/download 安装方式都是默认，建议安装的目录都是采用英文的全路径。 安装hexo 在任意位置右击鼠标选择Git Bash Here进入命令行，输入hexo的安装命令：npm install -g hexo 在D:\tools下新建hexo文件夹，进入hexo文件夹，右击鼠标选择Git Bash Here进入命令行，输入hexo初始化命令：hexo init；安装依赖包：npm install；（会在当前hexo文件夹内生成很多hexo的配置文件和配置文件夹） 继续输入命令：hexo g（hexo g #完整命令为hexo generate,用于生成静态文件） 继续输入命令：hexo s （hexo s #完整命令为hexo server,用于启动服务器，主要用来本地预览） 本地已经搭建好了一个基于hexo的博客，根据提示输入http://localhost:4000即可访问，可能会出现一直加载问题，请看底端遇见的问题解决。终止是用ctrl+c命令。 以上是本地部署的，只有本地才能访问，如何才能在互联网上访问呢，需要把hexo发不到GitHub上去。首先必须得有GitHub账号，这里就不展示GitHub的注册了，默认已有GitHub的账号。 创建repository 上图是因为我已经创建了一个hushen8023.github.io的项目，所以报错的。 编辑hexo文件夹下的_config.yml文件，参照下图 如果你是第一次使用Github或者是已经使用过，但没有配置过SSH，则可能需要配置一下:在Git Bash输入以下指令（任意位置点击鼠标右键：ls -al ~/.ssh），检查是否已经存在了SSH keys。 如果不存在就没有关系，如果存在的话，直接删除.ssh文件夹里面所有文件： 在Git Bash命令行中继续输入指令：ssh-keygen -t rsa -C &quot;szys_hs@126.com&quot;(注意：后面部分为你GitHub的邮箱，而且出现提示让你输入的时候直接先回车，好像需要3次) 继续命令行：ssh-agent -s 继续命令行：ssh-add ~/.ssh/id_rsa（输入之后，我这边出错了，不知道你出错没） 如果出错了，请输入以下指令：eval ssh-agent -s ssh-add 操作到这一步，基本上是完成了，接下来就是添加SSH key到GitHub账户中去，输入指令：clip &lt; ~/.ssh/id_rsa.pub（注意，输入完指令之后，表示已经拷贝，直接可以ctrl + v粘贴即可），在setting中的这个SSH keys的title随便取 测试：输入指令：ssh -T git@github.com 以上就表示SSH配置好了，执行以下命令部署到Github上。 执行指令：hexo g(hexo g #完整命令为hexo generate,用于生成静态文件) 执行指令：hexo d(hexo d #完整命令为hexo deploy,用于将本地文件发布到github上) 安装指令：npm install hexo-deployer-git –save 安装完成之后，继续执行hexo d 访问连接，比如我的hushen8023.github.io 发表文章: 在Git Bash下输入命令：hexo new “my new post”(会在hexo文件夹下比如我：D:\tools\hexo\source_posts文件夹下生成一个my-new-post.md文件）； 编辑这个新生成的文件，推荐使用Markdownpad工具编辑； 写完文章后，你可以使用 $ hexo g生成静态文件。 $ hexo s在本地预览效果。 $ hexo d同步到github 遇见的问题： 安装完node.js、git和hexo完，输入http://localhost:4000一直在加载，就是出不来hexo的页面，在网上查阅了很多资料，显示4000的端口可能被占用，可以修改端口：hexo server -p 8888然后就成功了。 把本地hexo部署到github上去访问时出现问题，一直404；如下图 解决方案： 在github上新建Repositories的时候，Repository name的值必须是github的账号名.github.io的格式，比如我：hushen8023.github.io 拷贝完密钥到github之后，需要在邮件中确认重新登陆的。 检查在github中生成的hexo的目录结构是否完整 如果还未解决，等上10分钟左右，一般需要解析下。访问：http://hushen8023.github.io/即可 3.中间更换过一次电脑，所以环境什么的都得重新安装，幸亏hexo文件夹可以直接拷贝过来，不然的话里面很多的配置和文章都得重新整。在安装完之后还需要重新的把本地的git和github联系起来，需要按照这个文档走一遍,把ssh文件和github上的sshkeys绑定。中间就碰到这个问题，问题的原因是本地的git没有设置用户配置。 分别用 这两条命令： $ git config --global user.name &quot;name&quot; $ git config --global user.email your_mail@gmail.com hexo指令总结 hexo c #hexo clean 清除缓存 hexo s #启动本地服务 hexo g #生成静态文件 hexo d #部署到GitHub上去 hexo server - p 8888 #更改端口，本地测试 hexo n “新文章” #hexo new “新文章” hexo new page tags#创建一个标签云 hexo new page about#创建关于我 参考文献http://moxfive.coding.me/yelee/ http://tengj.top/2016/02/22/hexo1/ http://blog.csdn.net/imail2016/article/details/51762873 http://www.voidking.com/2016/05/13/deve-gitcafe-to-coding/]]></content>
-      <categories>
-        <category>Hexo教程</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-        <tag>git</tag>
-      </tags>
-  </entry>
+<search> 
+  
+    
+    <entry>
+      <title><![CDATA[Linux干货系列：（一）、Linux介绍篇]]></title>
+      <url>/2017/08/17/Linux%E4%BB%8B%E7%BB%8D%E7%AF%87/</url>
+      <content type="html"><![CDATA[<p><contents><br><img src="http://hushen8023.github.io/articleImg/26.png" alt=""></contents></p>
+<blockquote>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;操作系统对于很多的非计算机专业的朋友们来说是很陌生的，在生活中常常接触到的所谓的系统也大多指的都是微软的windows，当然除了windows操作系统之外还有一款对于开发者来讲非常重要的操作系统，那就是Linux。为什么呢？因为你会发现基本上没有什么项目会部署在windows操作系统上的，生产服务器也基本上都是用的Linux。在这里我也就不再啰嗦的列举windows和linux的区别了（无非就是费用啊、开源啊、安全啊等等），总之社会很流行用，咱就去学就好了，肯定会有市场了。在这里我也就不再详细的讲解操作系统是什么了，和硬件、软件等之间的关系了等等，大伙自行百度去，嘿嘿，直奔主题———如何学习Linux？下图是一个学习架构图，取材于<a href="https://www.shiyanlou.com/" target="_blank" rel="external">实验楼</a>，归纳的特别好。</p>
+</blockquote>
+<p><img src="http://hushen8023.github.io/articleImg/24.png" alt=""></p>
+<blockquote>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;作为java开发人员，个人觉得Linux水平达到中级就差不多够用了，如果是linux方向的开发人员当然基本上都得熟咯。如果是运维人员，则Linux高级中的Linux服务器领域也必须熟，否则就不是一名合格的运维人员。当然如果您对Linux特别感兴趣的话，也可以深入的学习。</p>
+</blockquote>
+]]></content>
+      
+        <categories>
+            
+            <category> Linux干货系列 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Linux </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[2017年下半年学习计划]]></title>
+      <url>/2017/07/26/2017%E5%B9%B4%E4%B8%8B%E5%8D%8A%E5%B9%B4%E8%AE%A1%E5%88%92/</url>
+      <content type="html"><![CDATA[<p><contents></contents></p>
+<blockquote>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;17年上半年是折腾的半年，不过万事开头难，初来上海必须经历这么一遭的，我亦深知：苦难,是上帝送给我们带着包装的礼物,所有的磨难,都让人成长。如若一路顺风，岂非达不到闯一闯的目的呢。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;现在这家公司的性质有点类似于国企，所有的项目并不是完全由我们这些开发人员去做，都是进行招标由厂商来做，我们负责梳理需求和辅助开发，等到厂商退场之后完全的接手整个项目。目前公司准备在集团层面做一个金融平台把所有子公司系统公用的功能提取出来，比如：风控、账户（会员）、支付（渠道）、入口、运营等，现阶段还在招标过程中。那么趁着这段时间整理下思路，捋清楚自己的职业规划，抓紧时间站稳脚步，为下一次的起跳蓄力。</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">序号</th>
+<th style="text-align:center">时间段</th>
+<th style="text-align:center">项目</th>
+<th style="text-align:center">备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">1</td>
+<td style="text-align:center">07：00~07：50</td>
+<td style="text-align:center">起床</td>
+<td style="text-align:center">-</td>
+</tr>
+<tr>
+<td style="text-align:center">2</td>
+<td style="text-align:center">07：50~08：30</td>
+<td style="text-align:center">早饭和上班路上</td>
+<td style="text-align:center">-</td>
+</tr>
+<tr>
+<td style="text-align:center">3</td>
+<td style="text-align:center">08：30~17：30</td>
+<td style="text-align:center">上班</td>
+<td style="text-align:center">-</td>
+</tr>
+<tr>
+<td style="text-align:center">4</td>
+<td style="text-align:center">17：30~18：00</td>
+<td style="text-align:center">晚饭</td>
+<td style="text-align:center">-</td>
+</tr>
+<tr>
+<td style="text-align:center">5</td>
+<td style="text-align:center">18：00~21：00</td>
+<td style="text-align:center">加班学习</td>
+<td style="text-align:center">学习方向：技术(java、大数据等)、语言（英语、日语）</td>
+</tr>
+<tr>
+<td style="text-align:center">6</td>
+<td style="text-align:center">21：00~21：30</td>
+<td style="text-align:center">跑步回家</td>
+<td style="text-align:center">-</td>
+</tr>
+<tr>
+<td style="text-align:center">7</td>
+<td style="text-align:center">21：30~22：00</td>
+<td style="text-align:center">洗衣服</td>
+<td style="text-align:center">-</td>
+</tr>
+<tr>
+<td style="text-align:center">8</td>
+<td style="text-align:center">22：00~22：30</td>
+<td style="text-align:center">洗澡</td>
+<td style="text-align:center">-</td>
+</tr>
+<tr>
+<td style="text-align:center">9</td>
+<td style="text-align:center">22：30~23：00</td>
+<td style="text-align:center">睡前读书</td>
+<td style="text-align:center">非技术和语言类</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>在不影响生活和工作的前提下，2017年下半年学习计划：</p>
+<ol>
+<li>javaSE和javaEE部分的总结全部以博客的形式完成。</li>
+<li>大数据方向的知识同样以博客的形式完成学习。</li>
+<li>Linux操作系统的基本操作和使用，以ubuntu为准。</li>
+<li>数据库方向以mysql和oracle为准。</li>
+<li>缓存数据库方向以redis和mongodb为准。</li>
+<li>学习梳理支付、风控、账户等金融领域的业务知识，以博客的形式完成。</li>
+<li>英语水平：词汇2000，经典文章10篇，熟练听、说、写。</li>
+<li>日语水平达到N5标准。</li>
+</ol>
+</blockquote>
+]]></content>
+      
+        <categories>
+            
+            <category> 生活感悟 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 随笔 </tag>
+            
+            <tag> 学习计划 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[2017年上半年总结]]></title>
+      <url>/2017/07/26/2017%E5%B9%B4%E4%B8%8A%E5%8D%8A%E5%B9%B4%E6%80%BB%E7%BB%93/</url>
+      <content type="html"><![CDATA[<p><contents></contents></p>
+<blockquote>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;不觉间2017年已经过去了一半，年初的时候记得是3月10号从天好离开来到上海，那时意气风发，铆足了劲儿想成就一番事业，当然也是鼓足了勇气。从15年毕业到17年，老妈一直不同意我离开苏州，哪怕是之前北京的项目要出差，她也觉得如果非要去北京的话，就向公司提出离职。当然最后她还是妥协了。老妈的一片苦心我何尝不明白，无非是担心我在偌大的帝都难以生存，担心我生活的不好，因为至少在苏州在她身边，她能给予我无微不至的照顾，可怜天下父母心。果不其然，当我告知老妈和老爸我准备辞去工作去上海的时候，老妈那强烈的反对声音差点没让我打消这个念头，值得庆辛的是老爸说了一句“是应该出去闯闯的。”后来，老妈没能经得住我和老爸的统一战线作战，再一次妥协了。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;来到上海之后，感觉上海和苏州没什么区别，唯一的区别就是人要比苏州多。初来上海寄居在大学同宿舍的兄弟那，便开始投简历了。裸辞的感觉还是蛮心酸的，心里一点底都没有，不是不知道裸辞不好，实在是因为换城市，就算是在职换工作也没能抽空到上海来面试。所以开始也面试了很多外包公司，就当试试水啦，当然中间也有非外包的公司。大概不到三天，就有一家公司给我发来了offer，意思是项目比较急想让我尽快的来上班，薪水福利都按照我说的来，再一问工作的性质是项目外包而且是银行项目，由于不太了解这个项目外包的具体情况，而且告知我说是本公司的团队一起在银行做项目，之前在天好的时候出差也是属一个团队去甲方开发的，所以误认为和之前的工作性质和模式是一样的，再加上裸辞的心里压力以及薪资条件还可观，就答应了下来，后面的面试也就没再去了（主要是我同学住在佘山，每天去浦东面试地铁都要坐一个多小时，太累了）。接下来就顺顺利利的办了入职。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;入职当天就被人事带到项目现场（浦发银行-莲花路上的），做的是一个基于大数据的运维管理平台项目（当初心动的原因也有一部分听说是大数据的项目），在接下来的时间里也终于搞懂了这一切都是些什么套路。公司是和浦发银行以卖人头的形式和银行签订合同，而且这个所谓的“大数据项目”并不全算是一个大数据项目，因为有大数据团队把数据处理好了丢给我们，我们再针对这些数据，按照银行客户的需求来筛选出来，以报表、table、pdf等形式展示出效果来，当然中间取那些数据是用到了ElasticSearch 检索技术和类似于easyUI的kafka报表，这也算是和大数据沾了点边。在做项目的过程中，没有项目经理，没有测试，没有UI，没有运维，从需求、前端、后端、测试、上线都是自己负责，后来才知道这个项目还没开始启动，而且我们也不是开发这个项目的主力，这个项目会进行招标由厂商来做，我们现在做的说明白一点就是小白鼠，梳理需求的过程，行方想到一点需求，就让我们开发一点，看看效果。银行老师为了在他们领导面前展示他们为这个项目的努力，除了自己每天加班到九点之外，也要求我们每天陪同他们一起加班。于是乎就开始了漫长的加班生活。自己也感觉是应该好好的努力一把了，于是乎就在漕河泾找了房子，虽然有点贵但是离上班近啊，方便加班。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;连续奋战两个月了，同事们对我很认可，银行的老师也对我的能力表示认可。眼瞅着也马上要转正了，有一天银行老师突然找上我们团队，其实加上我也就三个人，大致的意思是，公司和银行签订的合同马上要到期了，好像是公司对这个项目也没能招到标，所以问问我们想不想继续跟着他干，如果想就推荐我们进别的公司，再进这个项目，后来本着对公司忠诚的态度，我们都未发表任何意见。中间另一家和我们一起开发这个项目的开发人员也私底下让我们准备简历，去他家公司，均给予不理会。到5月底的时候，依稀记得好像是周五，下午的时候接到公司电话说让我回趟公司，有些事情想和我谈谈，当时就感觉不太妙啊，因为第二天就要转正了，可怕公司因为项目的事卡我。当天下午银行老师也来找我谈了下，表示说因为公司和银行合同到期等原因，暂时让我先公司，听公司的安排。等我回到公司的时候，人事就过来和我谈，说要么更换部门（需重新面试，重新试用，工资下调），要么终止合同。我当时那个气呀，实在没想到公司居然能做出这等过河拆桥的事情，辛辛苦苦为公司在项目现场加班加点两个月，中间别家公司挖人都没理会，眼瞅第二天转正了，就因为和我半毛钱关系都没有的合同到期（其实主要原因是没中标，所以人员没法安置）就想终止合同，忽视我这两个月的劳动成果，再一回想当初新人培训时那讲师嘴里的公司和所谓的价值观，更是气不打一处来。但心里一想这个社会本来就是这个样子，虚情假意，唯利是图。于是就尽可能的和公司谈补偿。最终谈妥的方案是第二天的转正正常转，并且带薪休完之前所有的加班，而我也必须签订假期休完之后主动提出离职的协议。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;在休假的期间我又开始陆续的投简历面试，之前这个大数据项目和银行开发的经历让我的资本也丰富了不少，还没怎么开始投简历，只是更新了下简历电话就开始嘟嘟嘟的响个不停，而且还是处于毕业季，不禁又让我感受到上海的强大了。有了之前的经历，我在找工作的过程中，只找甲方公司，其他的乙方啊、外包啊，不管是项目外包还是人员外包啊，都直接pass。非常顺利，也是不到三天的时间里，收到了现在这家公司的offer，当然中间还有一家公司招项目主管的，初试过了等着复试，所以当时没立即答应现在这家公司，等复试完那家公司后，让等通知说会从我们几个复试中选一个，在此之间我还是果断的选择了现在这家公司，因为这家公司是做互联网金融的，而且公司的背景很大，公司的性质和国企差不多（五险两金）。果然那家复试的公司也没了音信。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;半年的时候就这么眨巴眼睛之间过去了，回过头去看不禁感慨万分。从来上海寄居在同学家（佘山），接着在浦东、徐汇等地面试，最远跑到唐镇，再到漕河泾的浦发银行上班，接着从同学家搬离住在万源新城（中间未通过中介自己找房子两个周末），又从公司离职开始面试，再到现在这家公司（陆家嘴世纪金融广场）上班，又搬家搬到临沂新村（让中介帮忙找的，自己最远找到了外高桥）。和之前的苏州生活相比虽然折腾了些，但是我觉得在这半年里我学到了很多的东西，这一趟上海是来对了。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>年轻就要经得起折腾！</strong></p>
+</blockquote>
+]]></content>
+      
+        <categories>
+            
+            <category> 生活感悟 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 随笔 </tag>
+            
+            <tag> 总结 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[真心，懂得，陪伴]]></title>
+      <url>/2017/07/24/%E7%9C%9F%E5%BF%83%EF%BC%8C%E6%87%82%E5%BE%97%EF%BC%8C%E9%99%AA%E4%BC%B4/</url>
+      <content type="html"><![CDATA[<p><contents></contents></p>
+<blockquote>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;记得大学一年级的时候，第一次在室友的蛊惑下说出“我想念你”这四个字。电话那头突然安静下来，沉默，然后用我听过的最温柔的声音说“那不打牌了，我陪你吧”。这好像是我关于他的唯一最好的记忆。当你违背本性用爱情国度的语言言不由衷地交流，却发现只有这种形式大于内容的交流才能带来真诚的回应时，这真是莫大的讽刺。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;所以我好久没说过这样的话了，觉得假得很。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;不得不承认，我是一个非常没有情调的人，不仅我自己没有情调，而且我极端反感别人跟我玩情调。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;若一个人以为一束花一盏烛光或是一件礼物就能让你欢喜雀跃，那么他太过看轻你。若一个人以为众目睽睽之下诸如“单膝跪地”式的义无反顾才能证明他的爱情，那么他太过看轻自己。若不能细水长流地书写内心的温柔，那轰轰烈烈的一幕一幕不过是日后回忆自己爱无能的证据罢了。当然也会有人悲催但真诚地对你说“为什么我做的所有我认为感动的事情，你都没有感动”，我想，这可能就是两个不同振幅的人企图改变自己灵魂的节奏来延续爱情了，其结果也只能是一败涂地。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;就像最近火了的那歌唱的，其实野马就是野马，你搬去呼伦贝尔，他也永远不会向往你家里的草原。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;但是，我反感情调不代表我反感浪漫。玩情调跟玩浪漫完全是走火入魔急于求成的周芷若和人淡如菊却出神入化的黄衣姐姐的区别。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;什么叫浪漫 —— 一年陪你过十二个情人节的总有一天会因为你的公主病掉头离开，整天短信电话腻腻歪歪到极致的总有一天穷死在中国移动的面前，为你淋雨打架卖血自残各种犯贱的你还指望他结了婚能对你怎样，把你当成全世界的有了你家也不回了妈也不管了工作也扔下了dota也不打了，我只能说他心胸太小小到只够装得下你，你俩以后就指着一颗玻璃心过日子吧。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;其实，什么叫浪漫——直言不讳地说我很喜欢你但请你不要把这当成一种姿态，这就叫浪漫。你喜欢的正确的一切他都有要了解和体验的冲动，并及时告诉你不要沉迷于此不可自拔，这就叫浪漫。对生活有自己的热情和愤怒，对未知的事物充满好奇，独立自由且重情重义，这就叫浪漫。指着自己爹妈对你说，咱以后一起孝敬他们，这就叫浪漫。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;在我上幼儿园的时候，放学家里没人，院里一个叔叔就坐在楼下的草坪上讲故事给我听，一直到爸爸妈妈下班他才去食堂吃饭。这个画面我已经忘了，但是我妈还记得，她说那么粗线条那么虎背熊腰的一个大小伙子就这样陪着一个小屁孩儿，真是难得。跟大人在一起像大人，跟孩子在一起像孩子，跟狗在一起像狗的人，不难得才怪。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;我妈说：看一个男生怎样，不要看他对你怎样，去看他对别人怎样。一个能对所有人都抱着一颗友善之心的人，他永远都不会舍得伤害你。故伪愤青不可碰，真情种不可碰，话多又没重点不装逼就会死的傻X也不可碰。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;一个女生，十五岁的时候相信童话故事，说明你纯真；二十五岁的时候依旧分不清童话和现实，那就是你幼稚。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;就像一个男生，十五岁的时候说自己为理想和爱情而生，我会觉得那是万恶的高考制度下难得一见的独创性思维；但是二十五岁的时候再整天为“爱情”撕心裂肺、为“理想”奋不顾身、虽视金钱如粪土结婚时依旧让爸妈掏钱买这买那、虽张口闭口决不妥协但遇到与自身利益相关的问题时便束手无策火大冲天，那你即使有再多的money，也不过是个潜力DS股而已。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;时间从来不喧哗。若光阴飞逝，你却依旧不能沿着正确的方向沉淀自己的心，那你的灵魂将空无一物，还期待什么浪漫的共振，只能期待那些矫情无比的小情调为你从未开始过的青春留下些许苍白的证明罢了。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;让自己变得强大不只是说说而已，十几岁的小萝莉们也开始宣扬要成为一个内心强大冷暖自知的女汉子了。拎个水果都嫌重的姑娘，你凭什么说自己是女汉子，在职场上呼风唤雨的姑娘，对家务事一窍不通，你凭什么说自己内心强大。真正聪明的姑娘，一定是福慧双修的，这跟你会几种乐器操几门外语拿几W月薪飞几个国家一毛钱关系都没有。你除了要有让自己的双脚坚实地站在大地上的东西，还要用最柔韧的心勇敢迎接各种挑战，琐碎至柴米油盐，精细至婆媳关系，高端至业务洽谈职场纵横等等等等。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;温柔但心有所属，随和却立场坚定，不浮夸不骄躁，看上去永远是一柄柔柔弱弱的剑，斜斜刺出，才能杀人于无形。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;廖一梅说，我挺着脖子支撑了那么多年，最终希冀的竟然也不过是被宠爱，被恰如其分地宠爱。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;其实养过小猫小狗的人都知道，宠爱谁都会。可惜越来越多的人把宠爱放大成溺爱，然后各种负能量各种予取予求。恰如其分地宠爱一个人，同时她能感受到并感激你的这份恰如其分的清醒，这才是关键。很多事情，过了那个度，没有了“你之所以是你”的原则，便没有了“爱情之所以是爱情”的意义。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;所以，若两个人从根本上是异类，那再多的浪漫在对方的眼里都是莫名其妙的动作。试问宝玉的旧帕子宝钗怎么能明白呢，杨过的苦痛郭芙怎么能了解呢，林朝英对王重阳的百般刁难丘处机怎么能想通呢，任盈盈那么喜欢令狐冲却不肯让他入教掌权她老子任我行怎么会不纳闷呢？</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;执子之手与子偕老，光有情有个屁用，关键是懂得。既然有生之年狭路相逢终不能幸免，那么，情之所至处我所做的一切加你所做的一切，身不由己后我没能做的一切加你没能做的一切，就是浪漫。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;张爱玲不是寄了所有的积蓄给放弃她的胡兰成吗，徐志摩不是以生命为代价飞去林徽因那儿吗，许广平不是答应鲁迅为了朱安愿意不结婚只相伴到老吗，胡蝶不是在戴笠的数年软禁之下依旧忍辱负重地活着吗？</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;这么多年过去了，还是有很多人对他们评头论足指指点点。可是，在彼此的心里，只要你以你独有的姿态，以我爱上你的姿态，以你从未改变过的喜悦自由的生命姿态，存在在这个世界上，在我看来，这就叫浪漫。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;对于那个《小时代》，我唯一认同的话就是，如果一个人说喜欢你，请等到他对你百般照顾时再相信；如果他答应带你去的地方，等他订好机票再开心；如果他说要娶你，等他买好钻戒跪在你面前再感动；感情不是说说而已，我们已经过了耳听爱情的年纪。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;我们早过了学生时代诗酒年华，既不会再抱着本朦胧诗独自吟唱“我如果爱你，绝不像攀援的凌霄花借你的高枝炫耀自己”，也不希望老了的时候才发现“曾有一人爱我那朝圣者的灵魂，爱我衰老了的脸上痛苦的皱纹”，所以只有浪漫是远远不够的。但是我们还年轻，虽然经历过伤痛，却在内心深处依然保留一份倔强，以至于我们要的计划并不是钱、钻石和社会地位，而是努力、沟通和理解。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;坐在你自行车后座的姑娘离开了，并不一定是为了坐在宝马里笑，她完全可以骑着另一辆自行车，和你一起创造你们的浪漫，只要你给她一份建立在奋斗、沟通和理解之上的计划愿景。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>愿有情人相知在心，不负斯土。</strong></p>
+</blockquote>
+]]></content>
+      
+        <categories>
+            
+            <category> 生活感悟 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 情感随笔 </tag>
+            
+            <tag> 转载 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[hexo搜索插件]]></title>
+      <url>/2017/07/18/hexo%E5%A2%9E%E5%8A%A0%E6%90%9C%E7%B4%A2%E6%8F%92%E4%BB%B6/</url>
+      <content type="html"><![CDATA[<p><contents><br>不同的主题对应的搜索插件配置不太一样，因为不同的主题js方法不太一样，小编在此总结的是<a href="https://github.com/hushen8023/hexo-theme-yelee" target="_blank" rel="external">yelee</a>主题下支持的插件配置方法。</contents></p>
+<p>在hexo的根目录下安装两个插件：<code>npm install hexo-generator-search --save npm install hexo-generator-searchdb –save</code></p>
+<p>会在D:\tools\hexo\node_modules目录下生成两个文件夹hexo-generator-search和hexo-generator-searchdb.</p>
+<p>在当前主题下D:\tools\hexo\themes\yelee_config.xml里</p>
+<p><img src="http://hushen8023.github.io/articleImg/22.png" alt=""></p>
+<p>本地测试结果：</p>
+<p><img src="http://hushen8023.github.io/articleImg/23.png" alt=""></p>
+<p>除了搜素插件之外，hexo还支持很多其他的插件配置，比如：评论、分享等等。详细请参照<a href="http://moxfive.coding.me/yelee/1.Getting-Started/installation.html" title="http://moxfive.coding.me/yelee/1.Getting-Started/installation.html" target="_blank" rel="external">http://moxfive.coding.me/yelee/1.Getting-Started/installation.html</a></p>
+]]></content>
+      
+        <categories>
+            
+            <category> Hexo教程 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> hexo </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[hexo更换主题+发表文章格式]]></title>
+      <url>/2017/07/17/hexo%E6%9B%B4%E6%8D%A2%E4%B8%BB%E9%A2%98+%E5%8F%91%E8%A1%A8%E6%96%87%E7%AB%A0%E6%A0%BC%E5%BC%8F/</url>
+      <content type="html"><![CDATA[<p><contents><br>人靠衣装马靠鞍，hexo一样。<a href="https://hexo.io/themes/" target="_blank" rel="external">hexo官网</a>除了提供各种版本的维护之外，同时向用户提供了大量不同风格的主题，以jacman为例总结更换主题的操作。</contents></p>
+<h1 id="下载主题"><a href="#下载主题" class="headerlink" title="下载主题"></a>下载主题</h1><p>直接Git Bash命令行中输入命令：<code>$ git clone https://github.com/wuchong/jacman.git themes/jacman</code>（会再D:\tools\hexo\themes文件夹下生成一个jacman的文件夹）</p>
+<h1 id="修改配置文件"><a href="#修改配置文件" class="headerlink" title="修改配置文件"></a>修改配置文件</h1><h2 id="修改根目录下的-config-xml"><a href="#修改根目录下的-config-xml" class="headerlink" title="修改根目录下的_config.xml"></a>修改根目录下的_config.xml</h2><p>修改hexo文件夹下_config.yml（根目录下的），内容如下（有注释，用Sublime Text(使用它的原因是默认是UTF-8编码，中文不会乱码)打开_config.yml文件，否则会乱码的）<br>注：<br>在每个参数的”：”后都要加一个空格修改网站相关信息;</p>
+<pre><code># Hexo Configuration
+## Docs: https://hexo.io/docs/configuration.html
+## Source: https://github.com/hexojs/hexo/
+
+# Site 网站
+title: 小福星独立博客   #网站标题
+subtitle: 既无三徙教，不闻过庭语   #网站副标题
+description: hello,every body!~ #网站描述
+author: sonny   #您的名字
+language: zh-CN #网站使用的语言
+timezone: #网站时区。Hexo 默认使用您电脑的时区
+
+# URL 网址
+## 如果您的网站存放在子目录中，例如 http://yoursite.com/blog，则请将您的 url 设为 http://yoursite.com/blog 并把 root 设为 /blog/。
+url: http://hushen8023.github.io
+root: /
+permalink: :year/:month/:day/:title/
+permalink_defaults:
+
+# Directory 目录配置
+source_dir: source   #源文件夹，这个文件夹用来存放内容。
+public_dir: public   #公共文件夹，这个文件夹用于存放生成的站点文件。
+tag_dir: tags#标签文件夹
+archive_dir: archives  #归档文件夹
+category_dir: categories #分类文件夹
+code_dir: downloads/code #nclude code 文件夹
+i18n_dir: :lang#国际化（i18n）文件夹
+skip_render: #跳过指定文件的渲染，您可使用 glob 表达式来匹配路径。
+
+# Writing 文章
+new_post_name: :title.md # 新建文章默认文件名
+default_layout: post # 默认布局
+titlecase: false # Transform title into titlecase
+external_link: true # 在新标签中打开一个外部链接，默认为true
+filename_case: 0#转换文件名，1代表小写；2代表大写；默认为0，意思就是创建文章的时候，是否自动帮你转换文件名，默认就行，意义不大。
+render_drafts: false  #是否渲染_drafts目录下的文章，默认为false
+post_asset_folder: false #启动 Asset 文件夹
+relative_link: false  #把链接改为与根目录的相对位址，默认false
+future: true#显示未来的文章，默认false
+highlight:  #代码块的设置
+  enable: true
+  line_number: true
+  auto_detect: false
+  tab_replace:
+
+# Category &amp; Tag 分类和标签的设置
+default_category: uncategorized   #默认分类
+category_map:   #分类别名
+tag_map:#标签别名
+
+# Date / Time format
+## Hexo uses Moment.js to parse and display date
+## You can customize the date format as defined in
+## http://momentjs.com/docs/#/displaying/format/
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+
+# Pagination 分页
+## Set per_page to 0 to disable pagination
+per_page: 10  #每页显示的文章量 (0 = 关闭分页功能)
+pagination_dir: page  #分页目录
+
+# Extensions
+## Plugins: https://hexo.io/plugins/
+## Themes: https://hexo.io/themes/
+theme: jacman
+
+# Deployment
+## Docs: https://hexo.io/docs/deployment.html
+deploy:
+  type: git
+  repository: https://github.com/hushen8023/hushen8023.github.com.git
+  branch: master
+</code></pre><h2 id="修改主题目录下的-config-xml"><a href="#修改主题目录下的-config-xml" class="headerlink" title="修改主题目录下的_config.xml"></a>修改主题目录下的_config.xml</h2><p>修改新的主题jacman下的_config.yml(对应主题下的_config.xml)</p>
+<pre><code>##### 菜单 
+menu:
+  主页 | Home: /
+  归档 | Archives: /archives
+  简介 | About: /about
+## you can create `tags` and `categories` folders in `../source`.
+## And create a `index.md` file in each of them.
+## set `front-matter`as
+## layout: tags (or categories)
+## title: tags (or categories)
+## ---
+
+#### 右边显示部分，按着排序进行排序，我用到了分类，标签，友情链接，微博，rss
+widgets: 
+- category
+- tag
+- links
+- weibo
+- rss
+
+#返回顶部按钮，totop。在博客右下脚显示一件返回顶部按钮
+totop: true   ## if you want to scroll to top in every post set the value to true
+#### RSS 地址
+rss: /atom.xml ## RSS address.
+
+#### Image 图片。包括各种图片，可以在jacman主题下source下img文件下找到各种图片，想要换成你的直接换就ok，当然名字扩展名最好用一样的
+imglogo:
+  enable: true ## display image logo true/false.
+  src: img/logo.png## `.svg` and `.png` are recommended,please put image into the theme folder `/jacman/source/img`.
+favicon: img/favicon.ico   ## size:32px*32px,`.ico` is recommended,please put image into the theme folder `/jacman/source/img`. 
+apple_icon: img/jacman.jpg ## size:114px*114px,please put image into the theme folder `/jacman/source/img`.
+author_img: img/author.jpg ## size:220px*220px.display author avatar picture.if don&apos;t want to display,please don&apos;t set this.
+banner_img: #img/banner.jpg ## size:1920px*200px+. Banner Picture
+### Theme Color 
+theme_color:
+theme: &apos;#2ca6cb&apos;##the defaut theme color is blue
+
+# 代码高亮主题
+# available: default | night
+highlight_theme: default
+
+####首页文章是否展开。默认为展开式，显示 Read More。
+index:
+  expand: true   ## default is unexpanding,so you can only see the short description of each post.
+  excerpt_link: Read More  
+###是否在文章页面自动关闭侧边栏
+
+close_aside: false  #close sidebar in post page if true
+mathjax: false  #enable mathjax if true
+
+### Creative Commons License Support, see http://creativecommons.org/ 
+### you can choose: by , by-nc , by-nc-nd , by-nc-sa , by-nd , by-sa , zero
+creative_commons: none
+
+#### 作者信息，显示在网站底部。主要包括，文字介绍，以及图片。还有各种你的链接包括微博等等。换成你id就行；
+author:
+  intro_line1:  &quot;Hello ,I&apos;m onePeace Page in csdn.&quot;## your introduction on the bottom of the page
+  intro_line2:  &quot; Stay hungary,stay foolish.&quot;  ## the 2nd line
+  weibo: 2026326475 ## e.g. wuchong1014 or 2176287895 for http://weibo.com/2176287895
+  weibo_verifier: 039d33aa  ## e.g. b3593ceb Your weibo-show widget verifier ,if you use weibo-show it is needed.
+  tsina: 2026326475 ## e.g. 2176287895  Your weibo ID,It will be used in share button.
+  douban: ## e.g. wuchong1014 or your id for https://www.douban.com/people/wuchong1014
+  zhihu: wang-he-ping-78 ## e.g. jark  for http://www.zhihu.com/people/jark
+  email: w_peace12@163.com ## e.g. imjark@gmail.com
+  twitter:  wpeace1212  ## e.g. jarkwu for https://twitter.com/jarkwu
+  github: wpeace1212## e.g. wuchong for https://github.com/wuchong
+  facebook:  100006871362068  ## e.g. imjark for https://facebook.com/100006871362068
+  linkedin: wpeace1212   ## e.g. wuchong1014 for https://www.linkedin.com/in/wuchong1014
+  google_plus: wpeace1212   ## e.g. &quot;111190881341800841449&quot; for https://plus.google.com/u/0/111190881341800841449, the &quot;&quot; is needed!
+  stackoverflow:  ## e.g. 3222790 for http://stackoverflow.com/users/3222790/jark
+## if you set them, the corresponding  share button will show on the footer
+
+#### 目录，是否在文章中显示目录。显示在侧边栏；
+toc:
+  article: true   ## show contents in article.
+  aside: true ## show contents in aside.
+## you can set both of the value to true of neither of them.
+## if you don&apos;t want display contents in a specified post,you can modify `front-matter` and add `toc: false`.
+
+#### 友情链接
+links:
+  开发者头条: http://toutiao.io/
+  peace in csdn: http://blog.csdn.net/peace1213
+  博客园： http://www.cnblogs.com/onepeace/
+
+
+#### 评论 国内用多说很好。注册账号，写在这里就ok
+duoshuo_shortname: rlovep   ## e.g. wuchong   your duoshuo short name.
+disqus_shortname: ## e.g. wuchong   your disqus short name.
+
+#### 主题自带分享，这里用了false
+jiathis:
+  enable: false ## if you use jiathis as your share tool,the built-in share tool won&apos;t be display.
+  id:## e.g. 1889330 your jiathis ID. 
+  tsina: ## e.g. 2176287895 Your weibo id,It will be used in share button.
+
+####网站统计，我用的时cnzz统计
+google_analytics:
+  enable: false
+  id:## google analytics ID.
+  site:  ## 网站地址.
+## You MUST upgrade to Universal Analytics first!
+## https://developers.google.com/analytics/devguides/collection/upgrade/?hl=zh_CN
+baidu_tongji:
+  enable: false
+  sitecode: 140e36c412afe791813036c83f602b ## e.g. e6d1f421bbc9962127a50488f9ed37d1 your baidu tongji site code
+cnzz_tongji:
+  enable: true
+  siteid: 1255712369   ## e.g. 1253575964 your cnzz tongji site id
+
+#### Miscellaneous
+ShowCustomFont: true  ## you can change custom font in `variable.styl` and `font.styl` which in the theme folder `/jacman/source/css`.
+fancybox: true## if you use gallery post or want use fancybox please set the value to true.
+
+
+
+#### 自定义搜索，我用的时百度搜索
+google_cse: 
+  enable: false
+  cx:   ## e.g. 018294693190868310296:abnhpuysycw your Custom Search ID.
+## https://www.google.com/cse/ 
+## To enable the custom search You must create a &quot;search&quot; folder in &apos;/source&apos; and a &quot;index.md&quot; file
+## set the &apos;front-matter&apos; as
+## layout: search 
+## title: search
+## ---
+baidu_search: ## http://zn.baidu.com/
+  enable: true
+  id: 16217304412639601221   ## e.g. &quot;783281470518440642&quot;  for your baidu search id
+  site: http://zhannei.baidu.com/cse/search  ## your can change to your site instead of the default site
+
+tinysou_search: ## http://tinysou.com/
+  enable: false
+  id:  ## e.g. &quot;4ac092ad8d749fdc6293&quot; for your tiny search id
+</code></pre><h1 id="文章格式"><a href="#文章格式" class="headerlink" title="文章格式"></a>文章格式</h1><pre><code>title: #标题
+date: 2017-07-17 10:20:18 #文章生成時間
+categories: &quot;&quot; #文章分類目錄 可以省略
+tags: [,] #标签，多个标签以数组形式
+description: &quot;&quot; #文章描述，用于列表展示
+---
+&lt;Contents&gt;
+#开始正文...
+</code></pre><h1 id="参考文档"><a href="#参考文档" class="headerlink" title="参考文档"></a>参考文档</h1><p><a href="https://hexo.io/themes/" title="https://hexo.io/themes/" target="_blank" rel="external">https://hexo.io/themes/</a></p>
+<p><a href="http://blog.csdn.net/peace1213/article/details/47010381" title="http://blog.csdn.net/peace1213/article/details/47010381" target="_blank" rel="external">http://blog.csdn.net/peace1213/article/details/47010381</a></p>
+]]></content>
+      
+        <categories>
+            
+            <category> Hexo教程 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> hexo </tag>
+            
+            <tag> 个人博客 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[对不起，我爱你]]></title>
+      <url>/2017/07/15/%E5%AF%B9%E4%B8%8D%E8%B5%B7%EF%BC%8C%E6%88%91%E7%88%B1%E4%BD%A0/</url>
+      <content type="html"><![CDATA[<p><contents></contents></p>
+<blockquote>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;思来想去，或许我只适合用文字的形式来和你说一些东西，讲一些心里话，这样你才能静下心来聆听，我们也不需要你一言我一句的，声音越来越大，火气越来越大，说的话也越来越难听了。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;在此时此刻你或许对我不满，对目前的现状感到失望，对当初的选择感到后悔，但是我却不然，至少我没有对你不满，对目前不失望，对当初的选择也不后悔，如果我也不满，也失望，也后悔，我想我们真的是走不下去了。在这段感情中我一直都是很乐观的，当然我的人生态度也一直都是很乐观的。从你我相识到今天有五个月零两天了，很感激你的喜欢，你的认可，你的奋不顾身，抛弃深圳的生活、事业和朋友毅然决然的来上海，可是呢，在这个陌生的城市，你并没有的因为爱情和我而过的比之前好，甚至更糟糕，每天上班幸苦，挤地铁幸苦，回家了那么小的房子，还要烧饭，还有着这么位幼稚不成熟的我时不时的惹你不开心，婊子嘴，整天嘟嘟嘟。在这里我向你真诚的道歉，我对不起你，我没有好好的照顾你，没能尽到一位男朋友、未婚夫的职责，没能照顾你的小情绪，没能给予你舒适的生活。请相信我，我并非扶不起的刘阿斗，面包会有的，牛奶也会有的，一切都会好的。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;两个人在相处的过程中，不管之前的印象有多好，真正的相处久了彼此身上的小问题都会显露出来，比如我：好争辩，一堆歪理、婊子嘴，总是爱叨叨叨、懒惰，这些之前的时候我都不怎么发现，目前来看我真的存在这些坏坯子，我也承认，我愿意改变，不仅仅是为了你，更多的是为了我自己，我也无时无刻都在想变的更好。可是呢，有的时候出现问题了你也只会埋怨我的不是，吵架了你只会记起之前我对你的各种不好，而忽视我爱你的时候，忽视我真情的时候，你只会一味的在按照你自己的性子，批判我，审视我，然后看着别人的爱情，指着我说，看别人的老公怎样怎样，再看看你，正如你说的一样，细节细节，我的细节是把你气跑，把你往外推，可真的全都是这样子吗？你生气的时候也仅仅记得那天晚上我嫌弃你热不去抱你，可曾去了解过那天晚上我浑身是汗，难道不能等到我凉会儿后再去抱你吗；仅仅记得昨天你腰疼，我回家没有问你一句，没有关心过你一句，可曾记得我在地铁站见到你的第一句话就是问你腰还疼吗；仅仅记得我在全神贯注发布房子信息的时候，你和我说话，我没搭理你然后对你吼，可曾知道因为你说我说的难听，好像我在玩别的不搭理你一样，我也曾解释我全神贯注的时候容易听不到别人说什么等等，其实两个人在相处的时候难免会有意见不合的时候，会有争吵的时候，就比如上次你姐和你姐夫的事，我们为此还争吵过，也难免会有工作，家庭其他事情的不如意心里不舒服的时候，在说话的时候情绪化，比如我上份工作，我苏州社保，你的考试，你生理期等。这些时候就需要我们彼此去包容，去理解，去沟通，照顾好彼此的小情绪。当然自己也不能太过了，尽可能的不去伤害到对方。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;爱是相互的，你向往爱情，我又何尝不向往呢。书本和影视剧里的爱情总是那么的美好，可现实中的爱情呢，毕竟是要过日子的嘛。在这段日子里，我感觉到我进步了很多，这些都是你的功劳，说句心里话，我还是蛮怕你的，愿意去听你的意见。因为你毕竟学历比我高，见识比我广，懂得的人情世故比我多。在你的陪伴下，我也越来越上进，压力也越来越大，不想让你跟我在一起受委屈，所以我想最近换房子，哪怕贵一点也无所谓，实在是不想让你你挤地铁，住又小又臭的房子了。我也想考研究生，或许难度很大，但是我不想一直拖你后腿，说出去你老公是个三本。我也想变的更好，越来越贴近书本里、影视剧里的男主角，阳光、大度、贴心、温柔，有本事，让你拥有完美爱情。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;从一出生父母就开始为我们操心，操不完的心。叔叔阿姨担心我对你不好，担心你受委屈，我爸妈也担心我们闹矛盾，吵架。在他们的心中，一直以来只希望我们好好的，过的越好他们越开心，不求我们有多么大的本事，也不求我们能怎样怎样的孝顺他们，也仅仅希望我们过的幸福。我是个孝顺的人，以前是，现在是，将来也是，当然你也是的，我们不能让他们失望，我们应该感激他们，爱他们。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;坐在自行车后座的你离开了，并不一定是为了坐在宝马里笑，我想你完全可以骑着另一辆自行车，和我一起创造我们的浪漫，只要我们拥有一份建立在奋斗、沟通和理解之上的计划愿景。</p>
+</blockquote>
+]]></content>
+      
+        <categories>
+            
+            <category> 生活感悟 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 情感随笔 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[hexo+github搭建个人博客]]></title>
+      <url>/2017/07/13/hexo+github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</url>
+      <content type="html"><![CDATA[<p><contents><br>利用hexo、gitbub、node.js以及git客户端搭建个人博客，在此总结记录一下，方便以后用到。</contents></p>
+<h1 id="环境部署"><a href="#环境部署" class="headerlink" title="环境部署:"></a>环境部署:</h1><h2 id="安装node-js"><a href="#安装node-js" class="headerlink" title="安装node.js"></a>安装node.js</h2><p> 下载地址：<a href="https://nodejs.org/en/" title="下载地址" target="_blank" rel="external">https://nodejs.org/en/</a></p>
+<h2 id="安装git客户端"><a href="#安装git客户端" class="headerlink" title="安装git客户端"></a>安装git客户端</h2><p>下载地址：<a href="https://git-scm.com/download" title="下载地址" target="_blank" rel="external">https://git-scm.com/download</a></p>
+<pre><code>安装方式都是默认，建议安装的目录都是采用英文的全路径。
+</code></pre><h1 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h1><ol>
+<li><p>在任意位置右击鼠标选择Git Bash Here进入命令行，输入hexo的安装命令：<code>npm install -g hexo</code></p>
+</li>
+<li><p>在D:\tools下新建hexo文件夹，进入hexo文件夹，右击鼠标选择Git Bash Here进入命令行，输入hexo初始化命令：<code>hexo init</code>；安装依赖包：<code>npm install</code>；（会在当前hexo文件夹内生成很多hexo的配置文件和配置文件夹）<br><img src="http://hushen8023.github.io/articleImg/1.png" alt=""></p>
+</li>
+<li>继续输入命令：<code>hexo g</code>（hexo g #完整命令为hexo generate,用于生成静态文件）</li>
+<li>继续输入命令：<code>hexo s</code> （hexo s #完整命令为hexo server,用于启动服务器，主要用来本地预览）<br><img src="http://hushen8023.github.io/articleImg/2.png" alt=""></li>
+</ol>
+<p>本地已经搭建好了一个基于hexo的博客，根据提示输入<a href="http://localhost:4000" target="_blank" rel="external">http://localhost:4000</a>即可访问，可能会出现一直加载问题，请看底端<strong>遇见的问题</strong>解决。终止是用ctrl+c命令。</p>
+<p>以上是本地部署的，只有本地才能访问，如何才能在互联网上访问呢，需要把hexo发不到GitHub上去。<br>首先必须得有GitHub账号，这里就不展示GitHub的注册了，默认已有GitHub的账号。</p>
+<blockquote>
+<p>创建repository<br> <img src="http://hushen8023.github.io/articleImg/3.png" alt=""><br> <img src="http://hushen8023.github.io/articleImg/4.png" alt=""></p>
+</blockquote>
+<p>上图是因为我已经创建了一个hushen8023.github.io的项目，所以报错的。</p>
+<blockquote>
+<p>编辑hexo文件夹下的_config.yml文件，参照下图<br> <img src="http://hushen8023.github.io/articleImg/5.png" alt=""></p>
+</blockquote>
+<p>如果你是第一次使用Github或者是已经使用过，但没有配置过SSH，则可能需要配置一下:在Git Bash输入以下指令（任意位置点击鼠标右键：<code>ls -al ~/.ssh</code>），检查是否已经存在了SSH keys。</p>
+<p>如果不存在就没有关系，如果存在的话，直接删除.ssh文件夹里面所有文件：<br> <img src="http://hushen8023.github.io/articleImg/6.png" alt=""></p>
+<blockquote>
+<p>在Git Bash命令行中继续输入指令：<code>ssh-keygen -t rsa -C &quot;szys_hs@126.com&quot;</code><br>(注意：后面部分为你GitHub的邮箱，而且出现提示让你输入的时候直接先回车，好像需要3次)<br> <img src="http://hushen8023.github.io/articleImg/7.png" alt=""></p>
+<p>继续命令行：<code>ssh-agent -s</code><br> <img src="http://hushen8023.github.io/articleImg/8.png" alt=""></p>
+<p>继续命令行：<code>ssh-add ~/.ssh/id_rsa</code>（输入之后，我这边出错了，不知道你出错没）<br> <img src="http://hushen8023.github.io/articleImg/9.png" alt=""><br>如果出错了，请输入以下指令：<code>eval ssh-agent -s ssh-add</code><br> <img src="http://hushen8023.github.io/articleImg/10.png" alt=""></p>
+</blockquote>
+<p>操作到这一步，基本上是完成了，接下来就是添加SSH key到GitHub账户中去，输入指令：<code>clip &lt; ~/.ssh/id_rsa.pub</code>（注意，输入完指令之后，表示已经拷贝，直接可以ctrl + v粘贴即可），在setting中的这个SSH keys的title随便取<br> <img src="http://hushen8023.github.io/articleImg/11.png" alt=""></p>
+<blockquote>
+<p>测试：输入指令：<code>ssh -T git@github.com</code><br> <img src="http://hushen8023.github.io/articleImg/12.png" alt=""><br>以上就表示SSH配置好了，执行以下命令部署到Github上。</p>
+<p>执行指令：<code>hexo g</code>(hexo g #完整命令为hexo generate,用于生成静态文件)</p>
+<p>执行指令：<code>hexo d</code>(hexo d #完整命令为hexo deploy,用于将本地文件发布到github上)<br> <img src="http://hushen8023.github.io/articleImg/13.png" alt=""></p>
+<p>安装指令：<code>npm install hexo-deployer-git –save</code></p>
+</blockquote>
+<p>安装完成之后，继续执行<code>hexo d</code></p>
+<blockquote>
+<p>访问连接，比如我的hushen8023.github.io<br> <img src="http://hushen8023.github.io/articleImg/14.png" alt=""></p>
+</blockquote>
+<h1 id="发表文章"><a href="#发表文章" class="headerlink" title="发表文章:"></a>发表文章:</h1><ol>
+<li>在Git Bash下输入命令：<code>hexo new “my new post”</code>(会在hexo文件夹下比如我：D:\tools\hexo\source_posts文件夹下生成一个my-new-post.md文件）；</li>
+<li>编辑这个新生成的文件，推荐使用<a href="http://markdownpad.com/" target="_blank" rel="external">Markdownpad</a>工具编辑；</li>
+<li>写完文章后，你可以使用<blockquote>
+<p>$ <code>hexo g</code>生成静态文件。</p>
+</blockquote>
+</li>
+</ol>
+<blockquote>
+<p>$ <code>hexo s</code>在本地预览效果。</p>
+<p>$ <code>hexo d</code>同步到github</p>
+</blockquote>
+<h1 id="遇见的问题："><a href="#遇见的问题：" class="headerlink" title="遇见的问题："></a>遇见的问题：</h1><ol>
+<li>安装完node.js、git和hexo完，输入<a href="http://localhost:4000" target="_blank" rel="external">http://localhost:4000</a>一直在加载，就是出不来hexo的页面，在网上查阅了很多资料，显示4000的端口可能被占用，可以修改端口：<code>hexo server -p 8888</code><br><img src="http://hushen8023.github.io/articleImg/15.png" alt=""><br>然后就成功了。<br><img src="http://hushen8023.github.io/articleImg/16.png" alt=""></li>
+<li>把本地hexo部署到github上去访问时出现问题，一直404；如下图<br><img src="http://hushen8023.github.io/articleImg/17.png" alt=""></li>
+</ol>
+<p><em>解决方案：</em></p>
+<blockquote>
+<p>在github上新建Repositories的时候，Repository name的值必须是<code>github的账号名.github.io</code>的格式，比如我：<code>hushen8023.github.io</code><br><img src="http://hushen8023.github.io/articleImg/18.png" alt=""></p>
+<p>拷贝完密钥到github之后，需要在邮件中确认重新登陆的。<br> <img src="http://hushen8023.github.io/articleImg/19.png" alt=""></p>
+<p>检查在github中生成的hexo的目录结构是否完整<br> <img src="http://hushen8023.github.io/articleImg/20.png" alt=""><br>如果还未解决，等上10分钟左右，一般需要解析下。访问：<a href="http://hushen8023.github.io/" target="_blank" rel="external">http://hushen8023.github.io/</a>即可<br> <img src="http://hushen8023.github.io/articleImg/21.png" alt=""></p>
+</blockquote>
+<p>3.中间更换过一次电脑，所以环境什么的都得重新安装，幸亏hexo文件夹可以直接拷贝过来，不然的话里面很多的配置和文章都得重新整。在安装完之后还需要重新的把本地的git和github联系起来，需要按照这个文档走一遍,把ssh文件和github上的sshkeys绑定。中间就碰到这个问题，问题的原因是本地的git没有设置用户配置。<br> <img src="http://hushen8023.github.io/articleImg/25.png" alt=""></p>
+<blockquote>
+<p>分别用 这两条命令：</p>
+</blockquote>
+<pre><code>$ git config --global user.name &quot;name&quot;
+$ git config --global user.email your_mail@gmail.com
+</code></pre><h1 id="hexo指令总结"><a href="#hexo指令总结" class="headerlink" title="hexo指令总结"></a>hexo指令总结</h1><ol>
+<li><code>hexo c</code> #hexo clean 清除缓存</li>
+<li><code>hexo s</code> #启动本地服务</li>
+<li><code>hexo g</code> #生成静态文件</li>
+<li><code>hexo d</code> #部署到GitHub上去</li>
+<li><code>hexo server - p 8888</code> #更改端口，本地测试</li>
+<li><code>hexo n</code> “新文章” #hexo new “新文章”</li>
+<li><code>hexo new page tags</code>#创建一个标签云</li>
+<li><code>hexo new page about</code>#创建关于我</li>
+</ol>
+<h1 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h1><p><a href="http://moxfive.coding.me/yelee/" target="_blank" rel="external">http://moxfive.coding.me/yelee/</a></p>
+<p><a href="http://tengj.top/2016/02/22/hexo1/" target="_blank" rel="external">http://tengj.top/2016/02/22/hexo1/</a></p>
+<p><a href="http://blog.csdn.net/imail2016/article/details/51762873" target="_blank" rel="external">http://blog.csdn.net/imail2016/article/details/51762873</a></p>
+<p><a href="http://www.voidking.com/2016/05/13/deve-gitcafe-to-coding/" target="_blank" rel="external">http://www.voidking.com/2016/05/13/deve-gitcafe-to-coding/</a></p>
+]]></content>
+      
+        <categories>
+            
+            <category> Hexo教程 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> hexo </tag>
+            
+            <tag> git </tag>
+            
+        </tags>
+        
+    </entry>
+    
+  
+  
 </search>

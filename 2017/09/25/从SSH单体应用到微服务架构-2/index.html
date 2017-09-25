@@ -15,20 +15,17 @@
 
 
 
-<meta name="description" content="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;上海天好电子商">
-<meta property="og:type" content="website">
-<meta property="og:title" content="相册集锦">
-<meta property="og:url" content="http://sonnyhu.top/photo/index.html">
+<meta name="description" content="重构中的外部准备工作">
+<meta name="keywords" content="转载,微服务,SSH,架构">
+<meta property="og:type" content="article">
+<meta property="og:title" content="从SSH单体应用到微服务架构-2">
+<meta property="og:url" content="http://sonnyhu.top/2017/09/25/从SSH单体应用到微服务架构-2/index.html">
 <meta property="og:site_name" content="小福星独立博客">
-<meta property="og:description" content="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;上海天好电子商">
-<meta property="og:image" content="http://sonnyhu.top/photo/resource/photo/photo1/1.JPG">
-<meta property="og:image" content="http://sonnyhu.top/photo/resource/photo/photo2/1.jpg">
-<meta property="og:image" content="http://sonnyhu.top/photo/resource/photo/photo3/16.jpg">
-<meta property="og:updated_time" content="2017-09-21T01:46:15.477Z">
+<meta property="og:description" content="重构中的外部准备工作">
+<meta property="og:updated_time" content="2017-09-25T07:43:35.172Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="相册集锦">
-<meta name="twitter:description" content="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;上海天好电子商">
-<meta name="twitter:image" content="http://sonnyhu.top/photo/resource/photo/photo1/1.JPG">
+<meta name="twitter:title" content="从SSH单体应用到微服务架构-2">
+<meta name="twitter:description" content="重构中的外部准备工作">
 
 <link rel="apple-touch-icon" href= "/apple-touch-icon.png">
 
@@ -60,7 +57,7 @@
 <link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
 
 
-<title>相册集锦 | 小福星独立博客</title>
+<title>从SSH单体应用到微服务架构-2 | 小福星独立博客</title>
 
 <script src="//cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
 <script src="//cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js"></script>
@@ -70,7 +67,7 @@
         fancybox: true,
         animate: true,
         isHome: false,
-        isPost: false,
+        isPost: true,
         isArchive: false,
         isTag: false,
         isCategory: false,
@@ -277,11 +274,11 @@
     </div>
     <link class="menu-list" tags="标签" friends="友情链接" about="关于我"/>
 </nav>
-      <div class="body-wrap"><article id="page-undefined" class="article article-type-page" itemscope itemprop="blogPost">
+      <div class="body-wrap"><article id="post-从SSH单体应用到微服务架构-2" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
-      <a href="/photo/index.html" class="article-date">
-      <time datetime="2017-09-12T09:28:10.000Z" itemprop="datePublished">2017-09-12</time>
+      <a href="/2017/09/25/从SSH单体应用到微服务架构-2/" class="article-date">
+      <time datetime="2017-09-25T07:43:18.000Z" itemprop="datePublished">2017-09-25</time>
 </a>
 
 
@@ -296,7 +293,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      相册集锦
+      从SSH单体应用到微服务架构-2
     </h1>
   
 
@@ -304,8 +301,16 @@
       
       <div class="article-info article-info-post">
         
+    <div class="article-category tagcloud">
+    <a class="article-category-link" href="/categories/微服务/">微服务</a>
+    </div>
+
 
         
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/SSH/">SSH</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/微服务/">微服务</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/架构/">架构</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/转载/">转载</a></li></ul>
+    </div>
+
         <div class="clearfix"></div>
       </div>
       
@@ -313,27 +318,32 @@
     <div class="article-entry" itemprop="articleBody">
       
           
-              <style>
-    .article-meta { display: none; }
-    #container .article .article-title { padding-right: 0; }
-    .article-header {
-        padding: 0;
-        padding-top: 26px;
-        border-left: none;
-        text-align: center;
-    }
-    .article-header:hover { border-left: none; }
-    .article-title { font-size: 1.6em }
-    .article-entry hr { margin: 0;}
-    .article-meta,
-    #container .article-info-post.article-info { display: none;}
-    #container .article .article-title { padding: 0; }
-</style>
-
-
-          
-        <hr>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;<a href="上海天好电子商务.html"><img src="/photo/resource/photo/photo1/1.JPG" style="width:230px;height:200px;padding:5px 5px 5px 5px;border:1px solid #F00;"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="商城&长竹园.html"><img src="/photo/resource/photo/photo2/1.jpg" style="width:230px;height:200px;border:1px solid #F00;padding:5px 5px 5px 5px;"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="三傻大闹郑科院.html"><img src="/photo/resource/photo/photo3/16.jpg" style="width:230px;height:200px;padding:5px 5px 5px 5px;border:1px solid #F00;"></a><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>上海天好电子商务</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>商城&amp;长竹园</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>三傻大闹郑科院</span><br><!-- --></p>
+        <p><contents><br>技改在任何时候都是个敏感的事情。大量的问题需要摆平，天时地利人和，缺一不可。</contents></p>
+<h2 id="天时"><a href="#天时" class="headerlink" title="天时"></a>天时</h2><p>即选择合适时机进行技术改造工作。在时机的选择上，我们经历了三个阶段。</p>
+<h4 id="空闲时段"><a href="#空闲时段" class="headerlink" title="空闲时段"></a>空闲时段</h4><p>在开发企业应用时，技术改进也是常见的工作。企业应用开发的特点是有忙有闲。在版本发布前都紧锣密鼓进行开发工作；在老版本发布之后，新版本刚刚启动开发时，有相对空闲时间，可以进行技术改进。 而当这一套方法搬到互联网应用开发上时，却发现基本行不通。互联网应用开发是两种情况：很忙和非常忙。预留大片的时间进行技术改进，几乎是不现实的。如果有业务可以有空闲时间做技改，那基本上也就没必要改了，因为这也意味着这个业务进入稳定和衰退期。</p>
+<h4 id="随需改进"><a href="#随需改进" class="headerlink" title="随需改进"></a>随需改进</h4><p>既然找不到空闲时段，另一个选择是随需进行，也就是在项目开发过程中，对涉及到的模块进行改进。而在实践中，我们也发现这种做法难度很大。</p>
+<ol>
+<li>遗留系统的模块依赖关系往往令人匪夷所思，改进过程中，经常会发现需要对所依赖的底层模块进行大调整，导致改进工作无法进行。</li>
+<li><p>就算是所依赖的模块没有问题，改进工作也会导致更多的时间开销，2~3倍都是正常的。这个延迟不是所有项目都能够承受的。</p>
+<h4 id="优化团队"><a href="#优化团队" class="headerlink" title="优化团队"></a>优化团队</h4><p>比较适合互联网应用开发的做法，是组建专门团对进行技术改进。预留大约30%的开发能力来进行技改。这些人可以是专门负责架构改进的，也可以从项目组中抽调轮岗。</p>
+</li>
+<li><p>改进前，制定改进计划，循序将近进行。涉及到具体模块改进时，抽调负责该模块的技术人员来参与。</p>
+</li>
+<li>如果模块改进和业务开发工作同时开展，则可以考虑将这两个工作合并进行。</li>
+</ol>
+<p>技改不能一哄而上，也不能蜻蜓点水的做。他是一个持续的过程，循序将近，不要中断。项目紧的时候挑选风险小的任务来执行，少安排几个重构点。项目松的时候重构下核心接口，多安排些重构。但是不要中断。 一旦中断，往往结果是没有人会愿意继续。重构往往是个前人栽树 后人乘凉的事，风险又大，短期看不到效果，大家做着做着，往往就放弃了。所以持续改进是必须的，避免半途而废。</p>
+<p>还有一个大家容易忽略的地方，对于特别看重绩效的团队，按照产出来度量工作成果，那必须果断避开绩效考评的这段敏感时期。</p>
+<h2 id="地利"><a href="#地利" class="headerlink" title="地利"></a>地利</h2><p>所谓地利，从软件角度，主要是基础设施的建设。在针对现有系统进行改进，推动微服务架构前，需要评估下当前的基础设施建设是否能够满足要求。 服务所需要的基础设施包括:</p>
+<h4 id="虚机环境或者docker"><a href="#虚机环境或者docker" class="headerlink" title="虚机环境或者docker"></a>虚机环境或者docker</h4><p>不同服务的线上压力和运行环境需求不同，内存，CPU，磁盘需求也不一样。按照服务需要自动弹性创建所需要的环境，是微服务部署的前置条件。</p>
+<h4 id="版本控制软件"><a href="#版本控制软件" class="headerlink" title="版本控制软件"></a>版本控制软件</h4><p>版本控制不仅仅是协调人和人之间的协作，同时也是保证线上运行的系统必须是最终正式的版本。一旦出现问题，开发人员可以从版本控制服务器上下载到一致的代码。现在一般用git来实现。为什么不用SVN,网上有很多对比文章，不是本文重点。</p>
+<h4 id="代码评审软件"><a href="#代码评审软件" class="headerlink" title="代码评审软件"></a>代码评审软件</h4><p>每个微服务作为独立的项目来开发，统一编码规范，审核代码逻辑等，在这场景下犹为重要。和git相配合，gitlab是优先考虑的codereview软件。</p>
+<h4 id="集成发布"><a href="#集成发布" class="headerlink" title="集成发布"></a>集成发布</h4><p>集群对微服务是必不可少的基础环境，将一个服务部署到几十，甚至上千台机器上是必要的。这种情况下，人工部署是不现实的，依赖于集成发布环境，实现获取版本，集成编译，备份老版本，发布新版本，启动服务，暂停服务和重启服务。推荐使用jenkins。</p>
+<h4 id="系统监控"><a href="#系统监控" class="headerlink" title="系统监控"></a>系统监控</h4><p>监控自动化也是必要的基础设施。对出问题的服务报警，在高峰期对核心服务进行监控，都必须借助监控系统来处理。推荐使用zabbix。</p>
+<h4 id="日志分析"><a href="#日志分析" class="headerlink" title="日志分析"></a>日志分析</h4><p>排查错误和对系统进行审查，日志处理是不可避免的。想跟踪某个ID用户的行为，在几百台机器上逐个查看日志也是不现实的。使用工具，如ELK，将日志收集到一个存储中，提供检索功能来查看日志，甚至对日志做统计分析，也是必须的设施。</p>
+<h4 id="办公环境"><a href="#办公环境" class="headerlink" title="办公环境"></a>办公环境</h4><p>不用说，新老系统开发人员得在一起办公，随时交流。如果条件无法满足，那至少必须建立顺畅的沟通方式，比如QQ群，微信群等。邮件并不是一个好的选择，电话会议也是不错的。</p>
+<h2 id="人和"><a href="#人和" class="headerlink" title="人和"></a>人和</h2><p>最重要的因素。总体上包括三个方面内容，上级领导的支持，团队成员的认可，合作部门的理解。</p>
+<h4 id="上级的支持"><a href="#上级的支持" class="headerlink" title="上级的支持"></a>上级的支持</h4><p>毫无疑问，上级领导支持是前提条件。重构是高风险的工作，往往不容易立即出新成果，而且还需要额外的投入。几个月内，没有新东西，出货速度变慢，没有其他因素，不是重构就是在怠工。从公司层面，更高层的人越能知道什么时机适合开展重构工作。公司马上要架构调整了，系统快下架了，近期有重大活动需要支持，有人需要尽快出成果来晋升….都需要慎重评估是否可以进行重构，而这些事情，越高层的人掌握的信息越多，所以得到他们的支持是必须的。</p>
+<h4 id="团队成员的认可"><a href="#团队成员的认可" class="headerlink" title="团队成员的认可"></a>团队成员的认可</h4><p>其次是团队成员们认可。特别是老系统的开发人员，他们认可和毫无保留的支持是必要的条件。他们最清楚系统有哪些坑，哪些是必须改动的，哪些是没有用的功能，哪些只是临时的解决方案。这样才可以在功能迁移时，有目的地进行调整。</p>
 
       
     </div>
@@ -341,6 +351,21 @@
   </div>
   
     
+    <div class="copyright">
+        <p><span>本文标题:</span><a href="/2017/09/25/从SSH单体应用到微服务架构-2/">从SSH单体应用到微服务架构-2</a></p>
+        <p><span>文章作者:</span><a href="/" title="回到主页">Sonny</a></p>
+        <p><span>发布时间:</span>2017-09-25, 15:43:18</p>
+        <p><span>最后更新:</span>2017-09-25, 15:43:35</p>
+        <p>
+            <span>原始链接:</span><a class="post-url" href="/2017/09/25/从SSH单体应用到微服务架构-2/" title="从SSH单体应用到微服务架构-2">http://sonnyhu.top/2017/09/25/从SSH单体应用到微服务架构-2/</a>
+            <span class="copy-path" data-clipboard-text="原文: http://sonnyhu.top/2017/09/25/从SSH单体应用到微服务架构-2/　　作者: Sonny" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
+            <script> var clipboard = new Clipboard('.copy-path'); </script>
+        </p>
+        <p>
+            <span>许可协议:</span><i class="fa fa-creative-commons"></i> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" title="CC BY-NC-SA 4.0 International" target = "_blank">"署名-非商用-相同方式共享 4.0"</a> 转载请保留原文链接及作者。
+        </p>
+    </div>
+
  <!-- 畅言打赏模块开始！！！！！！  -->
 
  <!-- 代码1：放在页面需要展示的位置  -->
@@ -354,8 +379,42 @@
 
  <!-- 畅言打赏模块结束！！！！！！！！！！！！！！  -->
 
+    <nav id="article-nav">
+        
+        
+            <div id="article-nav-older" class="article-nav-title">
+                <a href="/2017/09/25/从SSH单体应用到微服务架构-1/">
+                    从SSH单体应用到微服务架构-1
+                </a>
+            </div>
+        
+    </nav>
+
   
 </article>
+
+    <div id="toc" class="toc-article">
+        <strong class="toc-title">文章目录</strong>
+        
+            <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#天时"><span class="toc-number">1.</span> <span class="toc-text">天时</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#空闲时段"><span class="toc-number">1.0.1.</span> <span class="toc-text">空闲时段</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#随需改进"><span class="toc-number">1.0.2.</span> <span class="toc-text">随需改进</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#优化团队"><span class="toc-number">1.0.3.</span> <span class="toc-text">优化团队</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#地利"><span class="toc-number">2.</span> <span class="toc-text">地利</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#虚机环境或者docker"><span class="toc-number">2.0.1.</span> <span class="toc-text">虚机环境或者docker</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#版本控制软件"><span class="toc-number">2.0.2.</span> <span class="toc-text">版本控制软件</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#代码评审软件"><span class="toc-number">2.0.3.</span> <span class="toc-text">代码评审软件</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#集成发布"><span class="toc-number">2.0.4.</span> <span class="toc-text">集成发布</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#系统监控"><span class="toc-number">2.0.5.</span> <span class="toc-text">系统监控</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#日志分析"><span class="toc-number">2.0.6.</span> <span class="toc-text">日志分析</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#办公环境"><span class="toc-number">2.0.7.</span> <span class="toc-text">办公环境</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#人和"><span class="toc-number">3.</span> <span class="toc-text">人和</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#上级的支持"><span class="toc-number">3.0.1.</span> <span class="toc-text">上级的支持</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#团队成员的认可"><span class="toc-number">3.0.2.</span> <span class="toc-text">团队成员的认可</span></a></li></ol></li></ol></li></ol>
+        
+    </div>
+    <style>
+        .left-col .switch-btn,
+        .left-col .switch-area {
+            display: none;
+        }
+        .toc-level-3 i,
+        .toc-level-3 ol {
+            display: none !important;
+        }
+    </style>
+
+    <input type="button" id="tocButton" value="隐藏目录"  title="点击按钮隐藏或者显示文章目录">
+
+    <script>
+        yiliaConfig.toc = ["隐藏目录", "显示目录", !!"false"];
+    </script>
 
 
 
@@ -373,7 +432,7 @@
         </div>
         <script>
             window._bd_share_config={
-                "common":{"bdSnsKey":{},"bdText":"相册集锦　| 小福星独立博客　","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+                "common":{"bdSnsKey":{},"bdText":"从SSH单体应用到微服务架构-2　| 小福星独立博客　","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
         </script>
     
 
@@ -405,10 +464,26 @@
 
 
 
+    <div class="scroll" id="post-nav-button">
+        
+            <a href="/" title="回到主页"><i class="fa fa-home"></i></a>
+        
+
+        <a title="文章列表"><i class="fa fa-bars"></i><i class="fa fa-times"></i></a>
+
+        
+            <a href="/2017/09/25/从SSH单体应用到微服务架构-1/" title="下一篇: 从SSH单体应用到微服务架构-1">
+                <i class="fa fa-angle-right"></i>
+            </a>
+        
+    </div>
+
+    <ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2017/09/25/从SSH单体应用到微服务架构-2/">从SSH单体应用到微服务架构-2</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/09/25/从SSH单体应用到微服务架构-1/">从SSH单体应用到微服务架构-1</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/08/17/Linux介绍篇/">Linux干货系列：（一）、Linux介绍篇</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/07/26/2017年下半年计划/">2017年下半年学习计划</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/07/26/2017年上半年总结/">2017年上半年总结</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/07/24/真心，懂得，陪伴/">真心，懂得，陪伴</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/07/18/hexo增加搜索插件/">hexo搜索插件</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/07/17/hexo更换主题+发表文章格式/">hexo更换主题+发表文章格式</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/07/15/对不起，我爱你/">对不起，我爱你</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/07/13/hexo+github搭建个人博客/">hexo+github搭建个人博客</a></li></ul>
+
+
+
 
     <script>
-        
-            yiliaConfig.fancybox = false;
         
     </script>
 </div>

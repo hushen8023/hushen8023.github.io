@@ -15,17 +15,17 @@
 
 
 
-<meta name="description" content="搭建好了基于hexo+node.js+git的个人博客后，hexo官网还提供了各种各样绚丽的主题供用户选择，比如yelee主题、jacman主题、litten主题等等。同时在发表文章的时候要严格遵循hexo的语法格式，才能美观的展示博客内容。">
-<meta name="keywords" content="hexo,个人博客">
+<meta name="description" content="重构中的内部准备工作">
+<meta name="keywords" content="转载,微服务,SSH,架构">
 <meta property="og:type" content="article">
-<meta property="og:title" content="hexo更换主题+发表文章格式">
-<meta property="og:url" content="http://sonnyhu.top/2017/07/17/hexo更换主题+发表文章格式/index.html">
+<meta property="og:title" content="从SSH单体应用到微服务架构-3">
+<meta property="og:url" content="http://sonnyhu.top/2017/09/26/从SSH单体应用到微服务架构-3/index.html">
 <meta property="og:site_name" content="小福星独立博客">
-<meta property="og:description" content="搭建好了基于hexo+node.js+git的个人博客后，hexo官网还提供了各种各样绚丽的主题供用户选择，比如yelee主题、jacman主题、litten主题等等。同时在发表文章的时候要严格遵循hexo的语法格式，才能美观的展示博客内容。">
-<meta property="og:updated_time" content="2017-07-17T02:52:53.682Z">
+<meta property="og:description" content="重构中的内部准备工作">
+<meta property="og:updated_time" content="2017-09-26T03:03:36.329Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="hexo更换主题+发表文章格式">
-<meta name="twitter:description" content="搭建好了基于hexo+node.js+git的个人博客后，hexo官网还提供了各种各样绚丽的主题供用户选择，比如yelee主题、jacman主题、litten主题等等。同时在发表文章的时候要严格遵循hexo的语法格式，才能美观的展示博客内容。">
+<meta name="twitter:title" content="从SSH单体应用到微服务架构-3">
+<meta name="twitter:description" content="重构中的内部准备工作">
 
 <link rel="apple-touch-icon" href= "/apple-touch-icon.png">
 
@@ -57,7 +57,7 @@
 <link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
 
 
-<title>hexo更换主题+发表文章格式 | 小福星独立博客</title>
+<title>从SSH单体应用到微服务架构-3 | 小福星独立博客</title>
 
 <script src="//cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
 <script src="//cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js"></script>
@@ -274,11 +274,11 @@
     </div>
     <link class="menu-list" tags="标签" friends="友情链接" about="关于我"/>
 </nav>
-      <div class="body-wrap"><article id="post-hexo更换主题+发表文章格式" class="article article-type-post" itemscope itemprop="blogPost">
+      <div class="body-wrap"><article id="post-从SSH单体应用到微服务架构-3" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
-      <a href="/2017/07/17/hexo更换主题+发表文章格式/" class="article-date">
-      <time datetime="2017-07-17T02:20:18.000Z" itemprop="datePublished">2017-07-17</time>
+      <a href="/2017/09/26/从SSH单体应用到微服务架构-3/" class="article-date">
+      <time datetime="2017-09-26T02:28:18.000Z" itemprop="datePublished">2017-09-26</time>
 </a>
 
 
@@ -293,7 +293,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      hexo更换主题+发表文章格式
+      从SSH单体应用到微服务架构-3
     </h1>
   
 
@@ -302,13 +302,13 @@
       <div class="article-info article-info-post">
         
     <div class="article-category tagcloud">
-    <a class="article-category-link" href="/categories/Hexo教程/">Hexo教程</a>
+    <a class="article-category-link" href="/categories/微服务/">微服务</a>
     </div>
 
 
         
     <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/">hexo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/个人博客/">个人博客</a></li></ul>
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/SSH/">SSH</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/微服务/">微服务</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/架构/">架构</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/转载/">转载</a></li></ul>
     </div>
 
         <div class="clearfix"></div>
@@ -318,227 +318,63 @@
     <div class="article-entry" itemprop="articleBody">
       
           
-        <p><contents><br>人靠衣装马靠鞍，hexo一样。<a href="https://hexo.io/themes/" target="_blank" rel="external">hexo官网</a>除了提供各种版本的维护之外，同时向用户提供了大量不同风格的主题，以jacman为例总结更换主题的操作。</contents></p>
-<h1 id="下载主题"><a href="#下载主题" class="headerlink" title="下载主题"></a>下载主题</h1><p>直接Git Bash命令行中输入命令：<code>$ git clone https://github.com/wuchong/jacman.git themes/jacman</code>（会再D:\tools\hexo\themes文件夹下生成一个jacman的文件夹）</p>
-<h1 id="修改配置文件"><a href="#修改配置文件" class="headerlink" title="修改配置文件"></a>修改配置文件</h1><h2 id="修改根目录下的-config-xml"><a href="#修改根目录下的-config-xml" class="headerlink" title="修改根目录下的_config.xml"></a>修改根目录下的_config.xml</h2><p>修改hexo文件夹下_config.yml（根目录下的），内容如下（有注释，用Sublime Text(使用它的原因是默认是UTF-8编码，中文不会乱码)打开_config.yml文件，否则会乱码的）<br>注：<br>在每个参数的”：”后都要加一个空格修改网站相关信息;</p>
-<pre><code># Hexo Configuration
-## Docs: https://hexo.io/docs/configuration.html
-## Source: https://github.com/hexojs/hexo/
-
-# Site 网站
-title: 小福星独立博客   #网站标题
-subtitle: 既无三徙教，不闻过庭语   #网站副标题
-description: hello,every body!~ #网站描述
-author: sonny   #您的名字
-language: zh-CN #网站使用的语言
-timezone: #网站时区。Hexo 默认使用您电脑的时区
-
-# URL 网址
-## 如果您的网站存放在子目录中，例如 http://yoursite.com/blog，则请将您的 url 设为 http://yoursite.com/blog 并把 root 设为 /blog/。
-url: http://hushen8023.github.io
-root: /
-permalink: :year/:month/:day/:title/
-permalink_defaults:
-
-# Directory 目录配置
-source_dir: source   #源文件夹，这个文件夹用来存放内容。
-public_dir: public   #公共文件夹，这个文件夹用于存放生成的站点文件。
-tag_dir: tags#标签文件夹
-archive_dir: archives  #归档文件夹
-category_dir: categories #分类文件夹
-code_dir: downloads/code #nclude code 文件夹
-i18n_dir: :lang#国际化（i18n）文件夹
-skip_render: #跳过指定文件的渲染，您可使用 glob 表达式来匹配路径。
-
-# Writing 文章
-new_post_name: :title.md # 新建文章默认文件名
-default_layout: post # 默认布局
-titlecase: false # Transform title into titlecase
-external_link: true # 在新标签中打开一个外部链接，默认为true
-filename_case: 0#转换文件名，1代表小写；2代表大写；默认为0，意思就是创建文章的时候，是否自动帮你转换文件名，默认就行，意义不大。
-render_drafts: false  #是否渲染_drafts目录下的文章，默认为false
-post_asset_folder: false #启动 Asset 文件夹
-relative_link: false  #把链接改为与根目录的相对位址，默认false
-future: true#显示未来的文章，默认false
-highlight:  #代码块的设置
-  enable: true
-  line_number: true
-  auto_detect: false
-  tab_replace:
-
-# Category &amp; Tag 分类和标签的设置
-default_category: uncategorized   #默认分类
-category_map:   #分类别名
-tag_map:#标签别名
-
-# Date / Time format
-## Hexo uses Moment.js to parse and display date
-## You can customize the date format as defined in
-## http://momentjs.com/docs/#/displaying/format/
-date_format: YYYY-MM-DD
-time_format: HH:mm:ss
-
-# Pagination 分页
-## Set per_page to 0 to disable pagination
-per_page: 10  #每页显示的文章量 (0 = 关闭分页功能)
-pagination_dir: page  #分页目录
-
-# Extensions
-## Plugins: https://hexo.io/plugins/
-## Themes: https://hexo.io/themes/
-theme: jacman
-
-# Deployment
-## Docs: https://hexo.io/docs/deployment.html
-deploy:
-  type: git
-  repository: https://github.com/hushen8023/hushen8023.github.com.git
-  branch: master
-</code></pre><h2 id="修改主题目录下的-config-xml"><a href="#修改主题目录下的-config-xml" class="headerlink" title="修改主题目录下的_config.xml"></a>修改主题目录下的_config.xml</h2><p>修改新的主题jacman下的_config.yml(对应主题下的_config.xml)</p>
-<pre><code>##### 菜单 
-menu:
-  主页 | Home: /
-  归档 | Archives: /archives
-  简介 | About: /about
-## you can create `tags` and `categories` folders in `../source`.
-## And create a `index.md` file in each of them.
-## set `front-matter`as
-## layout: tags (or categories)
-## title: tags (or categories)
-## ---
-
-#### 右边显示部分，按着排序进行排序，我用到了分类，标签，友情链接，微博，rss
-widgets: 
-- category
-- tag
-- links
-- weibo
-- rss
-
-#返回顶部按钮，totop。在博客右下脚显示一件返回顶部按钮
-totop: true   ## if you want to scroll to top in every post set the value to true
-#### RSS 地址
-rss: /atom.xml ## RSS address.
-
-#### Image 图片。包括各种图片，可以在jacman主题下source下img文件下找到各种图片，想要换成你的直接换就ok，当然名字扩展名最好用一样的
-imglogo:
-  enable: true ## display image logo true/false.
-  src: img/logo.png## `.svg` and `.png` are recommended,please put image into the theme folder `/jacman/source/img`.
-favicon: img/favicon.ico   ## size:32px*32px,`.ico` is recommended,please put image into the theme folder `/jacman/source/img`. 
-apple_icon: img/jacman.jpg ## size:114px*114px,please put image into the theme folder `/jacman/source/img`.
-author_img: img/author.jpg ## size:220px*220px.display author avatar picture.if don&apos;t want to display,please don&apos;t set this.
-banner_img: #img/banner.jpg ## size:1920px*200px+. Banner Picture
-### Theme Color 
-theme_color:
-theme: &apos;#2ca6cb&apos;##the defaut theme color is blue
-
-# 代码高亮主题
-# available: default | night
-highlight_theme: default
-
-####首页文章是否展开。默认为展开式，显示 Read More。
-index:
-  expand: true   ## default is unexpanding,so you can only see the short description of each post.
-  excerpt_link: Read More  
-###是否在文章页面自动关闭侧边栏
-
-close_aside: false  #close sidebar in post page if true
-mathjax: false  #enable mathjax if true
-
-### Creative Commons License Support, see http://creativecommons.org/ 
-### you can choose: by , by-nc , by-nc-nd , by-nc-sa , by-nd , by-sa , zero
-creative_commons: none
-
-#### 作者信息，显示在网站底部。主要包括，文字介绍，以及图片。还有各种你的链接包括微博等等。换成你id就行；
-author:
-  intro_line1:  &quot;Hello ,I&apos;m onePeace Page in csdn.&quot;## your introduction on the bottom of the page
-  intro_line2:  &quot; Stay hungary,stay foolish.&quot;  ## the 2nd line
-  weibo: 2026326475 ## e.g. wuchong1014 or 2176287895 for http://weibo.com/2176287895
-  weibo_verifier: 039d33aa  ## e.g. b3593ceb Your weibo-show widget verifier ,if you use weibo-show it is needed.
-  tsina: 2026326475 ## e.g. 2176287895  Your weibo ID,It will be used in share button.
-  douban: ## e.g. wuchong1014 or your id for https://www.douban.com/people/wuchong1014
-  zhihu: wang-he-ping-78 ## e.g. jark  for http://www.zhihu.com/people/jark
-  email: w_peace12@163.com ## e.g. imjark@gmail.com
-  twitter:  wpeace1212  ## e.g. jarkwu for https://twitter.com/jarkwu
-  github: wpeace1212## e.g. wuchong for https://github.com/wuchong
-  facebook:  100006871362068  ## e.g. imjark for https://facebook.com/100006871362068
-  linkedin: wpeace1212   ## e.g. wuchong1014 for https://www.linkedin.com/in/wuchong1014
-  google_plus: wpeace1212   ## e.g. &quot;111190881341800841449&quot; for https://plus.google.com/u/0/111190881341800841449, the &quot;&quot; is needed!
-  stackoverflow:  ## e.g. 3222790 for http://stackoverflow.com/users/3222790/jark
-## if you set them, the corresponding  share button will show on the footer
-
-#### 目录，是否在文章中显示目录。显示在侧边栏；
-toc:
-  article: true   ## show contents in article.
-  aside: true ## show contents in aside.
-## you can set both of the value to true of neither of them.
-## if you don&apos;t want display contents in a specified post,you can modify `front-matter` and add `toc: false`.
-
-#### 友情链接
-links:
-  开发者头条: http://toutiao.io/
-  peace in csdn: http://blog.csdn.net/peace1213
-  博客园： http://www.cnblogs.com/onepeace/
-
-
-#### 评论 国内用多说很好。注册账号，写在这里就ok
-duoshuo_shortname: rlovep   ## e.g. wuchong   your duoshuo short name.
-disqus_shortname: ## e.g. wuchong   your disqus short name.
-
-#### 主题自带分享，这里用了false
-jiathis:
-  enable: false ## if you use jiathis as your share tool,the built-in share tool won&apos;t be display.
-  id:## e.g. 1889330 your jiathis ID. 
-  tsina: ## e.g. 2176287895 Your weibo id,It will be used in share button.
-
-####网站统计，我用的时cnzz统计
-google_analytics:
-  enable: false
-  id:## google analytics ID.
-  site:  ## 网站地址.
-## You MUST upgrade to Universal Analytics first!
-## https://developers.google.com/analytics/devguides/collection/upgrade/?hl=zh_CN
-baidu_tongji:
-  enable: false
-  sitecode: 140e36c412afe791813036c83f602b ## e.g. e6d1f421bbc9962127a50488f9ed37d1 your baidu tongji site code
-cnzz_tongji:
-  enable: true
-  siteid: 1255712369   ## e.g. 1253575964 your cnzz tongji site id
-
-#### Miscellaneous
-ShowCustomFont: true  ## you can change custom font in `variable.styl` and `font.styl` which in the theme folder `/jacman/source/css`.
-fancybox: true## if you use gallery post or want use fancybox please set the value to true.
-
-
-
-#### 自定义搜索，我用的时百度搜索
-google_cse: 
-  enable: false
-  cx:   ## e.g. 018294693190868310296:abnhpuysycw your Custom Search ID.
-## https://www.google.com/cse/ 
-## To enable the custom search You must create a &quot;search&quot; folder in &apos;/source&apos; and a &quot;index.md&quot; file
-## set the &apos;front-matter&apos; as
-## layout: search 
-## title: search
-## ---
-baidu_search: ## http://zn.baidu.com/
-  enable: true
-  id: 16217304412639601221   ## e.g. &quot;783281470518440642&quot;  for your baidu search id
-  site: http://zhannei.baidu.com/cse/search  ## your can change to your site instead of the default site
-
-tinysou_search: ## http://tinysou.com/
-  enable: false
-  id:  ## e.g. &quot;4ac092ad8d749fdc6293&quot; for your tiny search id
-</code></pre><h1 id="文章格式"><a href="#文章格式" class="headerlink" title="文章格式"></a>文章格式</h1><pre><code>title: #标题
-date: 2017-07-17 10:20:18 #文章生成時間
-categories: &quot;&quot; #文章分類目錄 可以省略
-tags: [,] #标签，多个标签以数组形式
-description: &quot;&quot; #文章描述，用于列表展示
----
-&lt;Contents&gt;
-#开始正文...
-</code></pre><h1 id="参考文档"><a href="#参考文档" class="headerlink" title="参考文档"></a>参考文档</h1><p><a href="https://hexo.io/themes/" title="https://hexo.io/themes/" target="_blank" rel="external">https://hexo.io/themes/</a></p>
-<p><a href="http://blog.csdn.net/peace1213/article/details/47010381" title="http://blog.csdn.net/peace1213/article/details/47010381" target="_blank" rel="external">http://blog.csdn.net/peace1213/article/details/47010381</a></p>
+        <p><contents><br>随着系统改进工作的进行，一些架构性的问题也越来越突出。在开发中，一个遗留接口是否要迁移到微服务架构上，哪些接口应该放到同一个项目上，项目应该如何组织，日志、监控等基础性的工作应该怎么统一规划，都需要从架构的层面来进行设计。</contents></p>
+<h1 id="确定目标"><a href="#确定目标" class="headerlink" title="确定目标"></a>确定目标</h1><p>公司每一年都会有一个明确的战略目标，这个目标最终会被分解到每个业务上去实施。 对于支付业务，我们的目标是：</p>
+<p><strong>持续提升支付成功率</strong></p>
+<p>支付成功率是支付业务的最高衡量指标。提升成功率的首要措施是提升系统的稳定性，在此基础上，通过简化支付流程、优化支付路由等措施，提升转化率。</p>
+<p><strong>持续降低支付成本</strong></p>
+<p>在保证支付的稳定的前提下，引入更多底成本的渠道，通过支持渠道优惠活动等措施，来降低支付成本。</p>
+<p><strong>支持进入新市场</strong></p>
+<p>配合公司的市场拓展需求，为新市场提供支付支持。</p>
+<h1 id="制定原则"><a href="#制定原则" class="headerlink" title="制定原则"></a>制定原则</h1><p>为了和目标保持一致，我们制定了一些微服务的架构规则。当然，这些规则也是随着团队的进步、业务的变更做调整。 我们的原则是参考Heroku的12 Factor而制定的。</p>
+<blockquote>
+<p>以下原则是在刚启动微服务架构改进的时候制定的。</p>
+</blockquote>
+<p><strong>虚机开发</strong> </p>
+<p>所有开发工作必须在虚机上进行，不得使用个人物理机开发。这使得开发人员能够随时在任何地方调起开发环境，避免由于环境配置问题而影响问题修复。</p>
+<p><strong>版本控制</strong> </p>
+<p>使用Git做版本控制。 每个项目都有一个基准代码库，部署时从主干获取代码。上线时对主干打Tag，每个Tag对应一个线上可执行代码。 测试环境、预部署环境和线上环境都使用相同的基准代码。</p>
+<p><strong>代码审核</strong></p>
+<p>为了保证代码质量，所有代码必须通过至少两位工程师的审核才可以签入到主干版本中。执行日常代码审核，避免在部署前进行突击式审核。</p>
+<p><strong>自动部署</strong></p>
+<p>开发人员不得直接将开发机上的构件推送到测试、线上环境。 build, release和run必须分离。 自动部署系统（Jenkins）将从版本控制服务器上下载代码，编译并发布到各个stage server上。</p>
+<p><strong>横向扩展</strong></p>
+<p>所有系统必须可以通过多进程部署的方式进行扩展。 这就要求：</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;1. 所有系统可以运行在一个或多个进程中。 但所有进程必须是无状态的，进程之间是无共享的。 对于Web来说，特别注意避免依赖session。如有需要，session需保存在membcached或者redis等内存缓存中。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;2. 所有进程运行时动态绑定到端口来提供服务。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;3. 避免使用守护进程或者PID文件。</p>
+<p><strong>同构环境</strong></p>
+<p>确保开发、测试和线上环境的同构。这包括如下内容：</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;1. 各stage下所使用的操作系统环境是一致的。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;2. 各stage下所使用的容器是一致的，包括JVM版本、容器版本。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;3. 各stage下所使用的数据库及其版本是一致的。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;4. 测试和线上环境可以在部署实例数量上不同，但在测试环境中，对于每个系统，至少部署2个实例。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;5. 各个stage下的唯一差异是通过配置参数来控制的。</p>
+<p><strong>配置参数</strong></p>
+<p>与环境相关的配置信息，必须与代码严格分离，包括数据库、第三方证书、域名、和性能有关的配置（线程数、重试间隔等）。配置信息统一使用环境变量来存储。</p>
+<p><strong>幂等原则</strong></p>
+<p>所有的接口必须实现为幂等的，这包括：</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;1. 该接口在同一个server上可以多次调用；</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;2. 如果某一个server上调用出现网络问题，客户端可以进行重试并将请求转发到另一个server上执行。</p>
+<p><strong>启动关闭</strong></p>
+<p>每个系统需提供启动、关闭和验证脚本。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;1. 系统在启动时执行必要的环境检查，包括不得使用root账户来启动应用、端口是否被占用等。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;2. 启动成功后，可以通过验证脚本来确认运行状态。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;3. 关闭脚本必须能够优雅终止进程，这包括回退所有的连接、停止接收消息，完成所有待处理的消息，必要时执行回滚等操作。</p>
+<p><strong>收集日志</strong></p>
+<p>所有日志信息都必须通过终端收集到日志服务器上。</p>
+<p><strong>监控报警</strong></p>
+<p>所有线上运行的系统，必须配置监控和报警，并落实报警处理人员。</p>
+<h1 id="制定规范"><a href="#制定规范" class="headerlink" title="制定规范"></a>制定规范</h1><p>在原有的Java编码规范的基础上，针对本次技改，我们又制定如下规范：</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;1. 支付系统监控报警规范。在支付系统的监控与报警 一文中有介绍。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;2. 支付系统Restful 接口设计规范。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;3. 支付系统RPC接口设计规范。 在微服务与RPC一文中有介绍。</p>
+<p>这些规范在执行过程中也会不断地进行补充和调整。除了在code review中确保这些规范被落地执行外，每周周会也会对异常执行情况进行分析，确保规范制定是符合实际需求的，并能够与时俱进地进行调整。 当然，最重要的规范，是软件过程的规范：支付系统开发的软件过程规范。在微服务开发的软件过程一文中有详细介绍。</p>
+<h1 id="团队建设"><a href="#团队建设" class="headerlink" title="团队建设"></a>团队建设</h1><p>微服务架构是否能够顺利实施，离不开团队成员的支持，以及团队能力的提升。团队建设一直是整个技改过程的重中之重。 团队建设本身是一个大话题。这里重点介绍我们在团队分工上的工作。</p>
+<p>团队的分工和整个架构设计需保持一致（又是康威定律）。在架构设计上，我们采取的整体策略，是参考原有的SSH架构，将业务逻辑和接口实现分离，将进程内调用改造成进程外调用，并在此基础上做切分。 这样，在团队划分上，前期，是按照层来分工，分为如下三个小团队：</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;1. 接口服务团队，开发对外的接口，对接业务系统以及Android，IOS,PCWeb等各端。随着业务的发展在，这个团队也会逐步按照端来进一步分解。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;2. 基础服务团队，为对外接口提供业务逻辑服务。这也是最大的一个团队，随着业务的发展，这个团队也会逐步按照业务进行拆分，分裂成账户、支付、交易等小团队。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;3. 基础设施团队，负责支持上述工作的各种规范的制定，以及支持这些规范实现的基础设施。</p>
 
       
     </div>
@@ -547,13 +383,13 @@ description: &quot;&quot; #文章描述，用于列表展示
   
     
     <div class="copyright">
-        <p><span>本文标题:</span><a href="/2017/07/17/hexo更换主题+发表文章格式/">hexo更换主题+发表文章格式</a></p>
+        <p><span>本文标题:</span><a href="/2017/09/26/从SSH单体应用到微服务架构-3/">从SSH单体应用到微服务架构-3</a></p>
         <p><span>文章作者:</span><a href="/" title="回到主页">Sonny</a></p>
-        <p><span>发布时间:</span>2017-07-17, 10:20:18</p>
-        <p><span>最后更新:</span>2017-07-17, 10:52:53</p>
+        <p><span>发布时间:</span>2017-09-26, 10:28:18</p>
+        <p><span>最后更新:</span>2017-09-26, 11:03:36</p>
         <p>
-            <span>原始链接:</span><a class="post-url" href="/2017/07/17/hexo更换主题+发表文章格式/" title="hexo更换主题+发表文章格式">http://sonnyhu.top/2017/07/17/hexo更换主题+发表文章格式/</a>
-            <span class="copy-path" data-clipboard-text="原文: http://sonnyhu.top/2017/07/17/hexo更换主题+发表文章格式/　　作者: Sonny" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
+            <span>原始链接:</span><a class="post-url" href="/2017/09/26/从SSH单体应用到微服务架构-3/" title="从SSH单体应用到微服务架构-3">http://sonnyhu.top/2017/09/26/从SSH单体应用到微服务架构-3/</a>
+            <span class="copy-path" data-clipboard-text="原文: http://sonnyhu.top/2017/09/26/从SSH单体应用到微服务架构-3/　　作者: Sonny" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
             <script> var clipboard = new Clipboard('.copy-path'); </script>
         </p>
         <p>
@@ -577,15 +413,15 @@ description: &quot;&quot; #文章描述，用于列表展示
     <nav id="article-nav">
         
             <div id="article-nav-newer" class="article-nav-title">
-                <a href="/2017/07/18/hexo增加搜索插件/">
-                    hexo搜索插件
+                <a href="/2017/09/26/从SSH单体应用到微服务架构-4/">
+                    从SSH单体应用到微服务架构-4
                 </a>
             </div>
         
         
             <div id="article-nav-older" class="article-nav-title">
-                <a href="/2017/07/15/对不起，我爱你/">
-                    对不起，我爱你
+                <a href="/2017/09/25/从SSH单体应用到微服务架构-2/">
+                    从SSH单体应用到微服务架构-2
                 </a>
             </div>
         
@@ -597,7 +433,7 @@ description: &quot;&quot; #文章描述，用于列表展示
     <div id="toc" class="toc-article">
         <strong class="toc-title">文章目录</strong>
         
-            <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#下载主题"><span class="toc-number">1.</span> <span class="toc-text">下载主题</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#修改配置文件"><span class="toc-number">2.</span> <span class="toc-text">修改配置文件</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#修改根目录下的-config-xml"><span class="toc-number">2.1.</span> <span class="toc-text">修改根目录下的_config.xml</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#修改主题目录下的-config-xml"><span class="toc-number">2.2.</span> <span class="toc-text">修改主题目录下的_config.xml</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#文章格式"><span class="toc-number">3.</span> <span class="toc-text">文章格式</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#参考文档"><span class="toc-number">4.</span> <span class="toc-text">参考文档</span></a></li></ol>
+            <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#确定目标"><span class="toc-number">1.</span> <span class="toc-text">确定目标</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#制定原则"><span class="toc-number">2.</span> <span class="toc-text">制定原则</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#制定规范"><span class="toc-number">3.</span> <span class="toc-text">制定规范</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#团队建设"><span class="toc-number">4.</span> <span class="toc-text">团队建设</span></a></li></ol>
         
     </div>
     <style>
@@ -633,7 +469,7 @@ description: &quot;&quot; #文章描述，用于列表展示
         </div>
         <script>
             window._bd_share_config={
-                "common":{"bdSnsKey":{},"bdText":"hexo更换主题+发表文章格式　| 小福星独立博客　","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+                "common":{"bdSnsKey":{},"bdText":"从SSH单体应用到微服务架构-3　| 小福星独立博客　","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
         </script>
     
 
@@ -667,7 +503,7 @@ description: &quot;&quot; #文章描述，用于列表展示
 
     <div class="scroll" id="post-nav-button">
         
-            <a href="/2017/07/18/hexo增加搜索插件/" title="上一篇: hexo搜索插件">
+            <a href="/2017/09/26/从SSH单体应用到微服务架构-4/" title="上一篇: 从SSH单体应用到微服务架构-4">
                 <i class="fa fa-angle-left"></i>
             </a>
         
@@ -675,7 +511,7 @@ description: &quot;&quot; #文章描述，用于列表展示
         <a title="文章列表"><i class="fa fa-bars"></i><i class="fa fa-times"></i></a>
 
         
-            <a href="/2017/07/15/对不起，我爱你/" title="下一篇: 对不起，我爱你">
+            <a href="/2017/09/25/从SSH单体应用到微服务架构-2/" title="下一篇: 从SSH单体应用到微服务架构-2">
                 <i class="fa fa-angle-right"></i>
             </a>
         

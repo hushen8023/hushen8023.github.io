@@ -19,7 +19,7 @@
 <meta name="keywords" content="hexo,git">
 <meta property="og:type" content="article">
 <meta property="og:title" content="hexo+github搭建个人博客">
-<meta property="og:url" content="http://sonnyhu.top/2017/07/13/hexo+github搭建个人博客/index.html">
+<meta property="og:url" content="localhost/2017/07/13/hexo+github搭建个人博客/index.html">
 <meta property="og:site_name" content="小福星独立博客">
 <meta property="og:description" content="之前一直有了解hexo，也想静下心来写点东西，可苦于没有时间。难得闲下来，于是乎花点时间利用hexo、gitbub、node.js以及git客户端搭建一个个人博客。">
 <meta property="og:image" content="http://hushen8023.github.io/articleImg/1.png">
@@ -353,7 +353,7 @@
 <li>继续输入命令：<code>hexo g</code>（hexo g #完整命令为hexo generate,用于生成静态文件）</li>
 <li>继续输入命令：<code>hexo s</code> （hexo s #完整命令为hexo server,用于启动服务器，主要用来本地预览）<br><img src="http://hushen8023.github.io/articleImg/2.png" alt=""></li>
 </ol>
-<p>本地已经搭建好了一个基于hexo的博客，根据提示输入<a href="http://localhost:4000" target="_blank" rel="external">http://localhost:4000</a>即可访问，可能会出现一直加载问题，请看底端<strong>遇见的问题</strong>解决。终止是用ctrl+c命令。</p>
+<p>本地已经搭建好了一个基于hexo的博客，根据提示输入<a href="http://localhost:4000">http://localhost:4000</a>即可访问，可能会出现一直加载问题，请看底端<strong>遇见的问题</strong>解决。终止是用ctrl+c命令。</p>
 <p>以上是本地部署的，只有本地才能访问，如何才能在互联网上访问呢，需要把hexo发不到GitHub上去。<br>首先必须得有GitHub账号，这里就不展示GitHub的注册了，默认已有GitHub的账号。</p>
 <blockquote>
 <p>创建repository<br> <img src="http://hushen8023.github.io/articleImg/3.png" alt=""><br> <img src="http://hushen8023.github.io/articleImg/4.png" alt=""></p>
@@ -393,7 +393,7 @@
 <p>$ <code>hexo d</code>同步到github</p>
 </blockquote>
 <h1 id="遇见的问题："><a href="#遇见的问题：" class="headerlink" title="遇见的问题："></a>遇见的问题：</h1><ol>
-<li>安装完node.js、git和hexo完，输入<a href="http://localhost:4000" target="_blank" rel="external">http://localhost:4000</a>一直在加载，就是出不来hexo的页面，在网上查阅了很多资料，显示4000的端口可能被占用，可以修改端口：<code>hexo server -p 8888</code><br><img src="http://hushen8023.github.io/articleImg/15.png" alt=""><br>然后就成功了。<br><img src="http://hushen8023.github.io/articleImg/16.png" alt=""></li>
+<li>安装完node.js、git和hexo完，输入<a href="http://localhost:4000">http://localhost:4000</a>一直在加载，就是出不来hexo的页面，在网上查阅了很多资料，显示4000的端口可能被占用，可以修改端口：<code>hexo server -p 8888</code><br><img src="http://hushen8023.github.io/articleImg/15.png" alt=""><br>然后就成功了。<br><img src="http://hushen8023.github.io/articleImg/16.png" alt=""></li>
 <li>把本地hexo部署到github上去访问时出现问题，一直404；如下图<br><img src="http://hushen8023.github.io/articleImg/17.png" alt=""></li>
 </ol>
 <p><em>解决方案：</em></p>
@@ -435,8 +435,8 @@ $ git config --global user.email your_mail@gmail.com
         <p><span>发布时间:</span>2017-07-13, 15:49:00</p>
         <p><span>最后更新:</span>2017-08-17, 16:53:02</p>
         <p>
-            <span>原始链接:</span><a class="post-url" href="/2017/07/13/hexo+github搭建个人博客/" title="hexo+github搭建个人博客">http://sonnyhu.top/2017/07/13/hexo+github搭建个人博客/</a>
-            <span class="copy-path" data-clipboard-text="原文: http://sonnyhu.top/2017/07/13/hexo+github搭建个人博客/　　作者: Sonny" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
+            <span>原始链接:</span><a class="post-url" href="/2017/07/13/hexo+github搭建个人博客/" title="hexo+github搭建个人博客">localhost/2017/07/13/hexo+github搭建个人博客/</a>
+            <span class="copy-path" data-clipboard-text="原文: localhost/2017/07/13/hexo+github搭建个人博客/　　作者: Sonny" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
             <script> var clipboard = new Clipboard('.copy-path'); </script>
         </p>
         <p>
@@ -570,7 +570,7 @@ $ git config --global user.email your_mail@gmail.com
         <div id="footer-info">
             <div class="footer-left">
                 <i class="fa fa-copyright"></i> 
-                2017 Sonny
+                2017-2019 Sonny
             </div>
             <div class="footer-right">
                 <a href="http://hexo.io/" target="_blank" title="快速、简洁且高效的博客框架">Hexo</a>  Theme <a href="https://github.com/MOxFIVE/hexo-theme-yelee" target="_blank" title="简而不减 Hexo 双栏博客主题  v3.5">Yelee</a> by MOxFIVE <i class="fa fa-heart animated infinite pulse"></i>
